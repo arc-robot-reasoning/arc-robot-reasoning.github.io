@@ -1,0 +1,796 @@
+{
+  "title": "ARC: A Reasoning Recipe for Robot Foundation Models",
+  "abstract": "The prevailing approach to improving robot foundation models (RFMs) relies on larger models, more robot demonstrations, and costly training at scale. We show that there exists an effective and efficient complementary approach: the right reasoning recipe can substantially improve the zero-shot task performance of existing state-of-the-art RFMs. We refer to this recipe as ARC. It consists of three key ingredients: a reasoning trace, a scalable automatic labeling pipeline, and a strategy for adapting pretrained RFMs to use these traces for control. First, we find that effective reasoning traces should be grounded in the robot's next action and explain its causal structure: why the action is appropriate and what effect it should produce. Second, we show that these traces can be generated automatically from existing demonstrations, enabling us to construct ARC-Trace-DROID from DROID without collecting new robot data. Third, we show how state-of-the-art VLAs such as π₀.₅ and WAMs such as Cosmos3-Nano-Policy can learn to use these traces for control, with fine-tuning and inference tailored to each model's architecture and capabilities. Using ARC, we obtain gains in zero-shot RFM performance that, to our knowledge, are unprecedented without additional robot demonstrations or foundation-scale training. The adapted models establish a new state of the art on RoboLab-120 and MolmoSpaces, with gains of up to 50 percentage points on RoboLab-Reasoning-50. On real robots, ARC improves π₀.₅'s task success by 82.2 percentage points.",
+  "robolab": {
+    "vague": [
+      {
+        "rank": 1,
+        "policy": "π0.5 + ARC",
+        "type": "VLA",
+        "sr": 45.1,
+        "sr_pm_pp": 3.1,
+        "gain_pp": 29.8,
+        "success_count": null,
+        "total": null,
+        "ee_speed": 4.63,
+        "speed_pm": 3.45,
+        "ee_sparc": -5.38,
+        "ee_sparc_pm": 2.01,
+        "obs": [
+          "RGB",
+          "P"
+        ],
+        "ours": true
+      },
+      {
+        "rank": 2,
+        "policy": "Cosmos3-Nano-Policy + ARC",
+        "type": "WAM",
+        "sr": 44.9,
+        "sr_pm_pp": 2.3,
+        "gain_pp": 24.3,
+        "success_count": null,
+        "total": null,
+        "ee_speed": 6.34,
+        "speed_pm": 3.01,
+        "ee_sparc": -6.01,
+        "ee_sparc_pm": 2.04,
+        "obs": [
+          "RGB",
+          "P"
+        ],
+        "ours": true
+      },
+      {
+        "rank": 3,
+        "policy": "Atomic-WAM",
+        "type": "VLM+WAM",
+        "sr": 31.6,
+        "sr_pm_pp": 5.3,
+        "gain_pp": null,
+        "success_count": 379,
+        "total": 1200,
+        "ee_speed": 7.45,
+        "speed_pm": 1.79,
+        "ee_sparc": -4.77,
+        "ee_sparc_pm": null,
+        "obs": [
+          "RGB",
+          "P"
+        ],
+        "ours": false
+      },
+      {
+        "rank": 4,
+        "policy": "BiMind v0.1",
+        "type": "VLA",
+        "sr": 30.2,
+        "sr_pm_pp": 5.3,
+        "gain_pp": null,
+        "success_count": 363,
+        "total": 1200,
+        "ee_speed": 5.24,
+        "speed_pm": 1.72,
+        "ee_sparc": -5.88,
+        "ee_sparc_pm": null,
+        "obs": [
+          "RGB",
+          "P"
+        ],
+        "ours": false
+      },
+      {
+        "rank": 5,
+        "policy": "VoLo",
+        "type": "AGENT",
+        "sr": 29.5,
+        "sr_pm_pp": 5.2,
+        "gain_pp": null,
+        "success_count": 354,
+        "total": 1200,
+        "ee_speed": 5.51,
+        "speed_pm": 1.62,
+        "ee_sparc": -8.92,
+        "ee_sparc_pm": null,
+        "obs": [
+          "RGB",
+          "D",
+          "P"
+        ],
+        "ours": false
+      },
+      {
+        "rank": 6,
+        "policy": "Cosmos3-Nano-Policy",
+        "type": "WAM",
+        "sr": 20.6,
+        "sr_pm_pp": 4.7,
+        "gain_pp": null,
+        "success_count": 247,
+        "total": 1200,
+        "ee_speed": 6.37,
+        "speed_pm": 1.59,
+        "ee_sparc": -5.99,
+        "ee_sparc_pm": null,
+        "obs": [
+          "RGB",
+          "P"
+        ],
+        "ours": false
+      },
+      {
+        "rank": 7,
+        "policy": "Cosmos3-Edge-Policy",
+        "type": "WAM",
+        "sr": 15.4,
+        "sr_pm_pp": 4.2,
+        "gain_pp": null,
+        "success_count": 185,
+        "total": 1200,
+        "ee_speed": 6.35,
+        "speed_pm": 1.74,
+        "ee_sparc": -5.46,
+        "ee_sparc_pm": null,
+        "obs": [
+          "RGB",
+          "P"
+        ],
+        "ours": false
+      },
+      {
+        "rank": 8,
+        "policy": "π0.5",
+        "type": "VLA",
+        "sr": 15.2,
+        "sr_pm_pp": 4.1,
+        "gain_pp": null,
+        "success_count": 183,
+        "total": 1200,
+        "ee_speed": 5.35,
+        "speed_pm": 1.41,
+        "ee_sparc": -8.34,
+        "ee_sparc_pm": null,
+        "obs": [
+          "RGB",
+          "P"
+        ],
+        "ours": false
+      },
+      {
+        "rank": 9,
+        "policy": "DreamZero",
+        "type": "WAM",
+        "sr": 14.9,
+        "sr_pm_pp": 4.1,
+        "gain_pp": null,
+        "success_count": 179,
+        "total": 1200,
+        "ee_speed": 3.11,
+        "speed_pm": 1.24,
+        "ee_sparc": -6.41,
+        "ee_sparc_pm": null,
+        "obs": [
+          "RGB",
+          "P"
+        ],
+        "ours": false
+      },
+      {
+        "rank": 10,
+        "policy": "π0-FAST",
+        "type": "VLA",
+        "sr": 9.2,
+        "sr_pm_pp": 3.4,
+        "gain_pp": null,
+        "success_count": 111,
+        "total": 1200,
+        "ee_speed": 4.85,
+        "speed_pm": 1.77,
+        "ee_sparc": -9.63,
+        "ee_sparc_pm": null,
+        "obs": [
+          "RGB",
+          "P"
+        ],
+        "ours": false
+      },
+      {
+        "rank": 11,
+        "policy": "GR00T N1.6",
+        "type": "VLA",
+        "sr": 5.4,
+        "sr_pm_pp": 2.6,
+        "gain_pp": null,
+        "success_count": 65,
+        "total": 1200,
+        "ee_speed": 4.19,
+        "speed_pm": 1.24,
+        "ee_sparc": -6.87,
+        "ee_sparc_pm": null,
+        "obs": [
+          "RGB",
+          "P"
+        ],
+        "ours": false
+      }
+    ],
+    "default": [
+      {
+        "rank": 1,
+        "policy": "Cosmos3-Nano-Policy + ARC",
+        "type": "WAM",
+        "sr": 48.8,
+        "sr_pm_pp": 2.4,
+        "gain_pp": 12.0,
+        "success_count": null,
+        "total": null,
+        "ee_speed": 6.39,
+        "speed_pm": 3.12,
+        "ee_sparc": -5.98,
+        "ee_sparc_pm": 3.31,
+        "obs": [
+          "RGB",
+          "P"
+        ],
+        "ours": true
+      },
+      {
+        "rank": 2,
+        "policy": "π0.5 + ARC",
+        "type": "VLA",
+        "sr": 45.3,
+        "sr_pm_pp": 2.3,
+        "gain_pp": 17.3,
+        "success_count": null,
+        "total": null,
+        "ee_speed": 4.64,
+        "speed_pm": 1.35,
+        "ee_sparc": -5.81,
+        "ee_sparc_pm": 2.1,
+        "obs": [
+          "RGB",
+          "P"
+        ],
+        "ours": true
+      },
+      {
+        "rank": 3,
+        "policy": "FLUX 3 Action",
+        "type": "WAM",
+        "sr": 42.9,
+        "sr_pm_pp": 5.7,
+        "gain_pp": null,
+        "success_count": 515,
+        "total": 1200,
+        "ee_speed": 7.36,
+        "speed_pm": 1.85,
+        "ee_sparc": -5.37,
+        "ee_sparc_pm": null,
+        "obs": [
+          "RGB",
+          "P"
+        ],
+        "ours": false
+      },
+      {
+        "rank": 4,
+        "policy": "HiDream-O1-Embodied",
+        "type": "VLA",
+        "sr": 39.9,
+        "sr_pm_pp": 5.6,
+        "gain_pp": null,
+        "success_count": 479,
+        "total": 1200,
+        "ee_speed": 5.32,
+        "speed_pm": 2.23,
+        "ee_sparc": -4.95,
+        "ee_sparc_pm": null,
+        "obs": [
+          "RGB",
+          "P"
+        ],
+        "ours": false
+      },
+      {
+        "rank": 5,
+        "policy": "Atomic-WAM",
+        "type": "VLM+WAM",
+        "sr": 39.6,
+        "sr_pm_pp": 5.6,
+        "gain_pp": null,
+        "success_count": 475,
+        "total": 1200,
+        "ee_speed": 7.69,
+        "speed_pm": 1.97,
+        "ee_sparc": -4.77,
+        "ee_sparc_pm": null,
+        "obs": [
+          "RGB",
+          "P"
+        ],
+        "ours": false
+      },
+      {
+        "rank": 6,
+        "policy": "OASIS WAM",
+        "type": "VLM+WAM",
+        "sr": 39,
+        "sr_pm_pp": 5.6,
+        "gain_pp": null,
+        "success_count": 468,
+        "total": 1200,
+        "ee_speed": 6.91,
+        "speed_pm": 1.81,
+        "ee_sparc": -5.26,
+        "ee_sparc_pm": null,
+        "obs": [
+          "RGB",
+          "P"
+        ],
+        "ours": false
+      },
+      {
+        "rank": 7,
+        "policy": "Cosmos3-Nano-Policy",
+        "type": "WAM",
+        "sr": 36.8,
+        "sr_pm_pp": 5.5,
+        "gain_pp": null,
+        "success_count": 441,
+        "total": 1200,
+        "ee_speed": 7.13,
+        "speed_pm": 1.77,
+        "ee_sparc": -5.99,
+        "ee_sparc_pm": null,
+        "obs": [
+          "RGB",
+          "P"
+        ],
+        "ours": false
+      },
+      {
+        "rank": 8,
+        "policy": "Phoenix",
+        "type": "TAMP+FM",
+        "sr": 34.4,
+        "sr_pm_pp": 5.5,
+        "gain_pp": null,
+        "success_count": 413,
+        "total": 1200,
+        "ee_speed": 6.13,
+        "speed_pm": 4.56,
+        "ee_sparc": -5.55,
+        "ee_sparc_pm": null,
+        "obs": [
+          "RGB",
+          "D",
+          "P"
+        ],
+        "ours": false
+      },
+      {
+        "rank": 9,
+        "policy": "BiMind v0.1",
+        "type": "VLA",
+        "sr": 33.3,
+        "sr_pm_pp": 5.4,
+        "gain_pp": null,
+        "success_count": 400,
+        "total": 1200,
+        "ee_speed": 5.26,
+        "speed_pm": 1.72,
+        "ee_sparc": -5.88,
+        "ee_sparc_pm": null,
+        "obs": [
+          "RGB",
+          "P"
+        ],
+        "ours": false
+      },
+      {
+        "rank": 10,
+        "policy": "VoLo",
+        "type": "AGENT",
+        "sr": 28.2,
+        "sr_pm_pp": 5.2,
+        "gain_pp": null,
+        "success_count": 339,
+        "total": 1200,
+        "ee_speed": 5.5,
+        "speed_pm": 1.67,
+        "ee_sparc": -8.92,
+        "ee_sparc_pm": null,
+        "obs": [
+          "RGB",
+          "D",
+          "P"
+        ],
+        "ours": false
+      },
+      {
+        "rank": 11,
+        "policy": "π0.5",
+        "type": "VLA",
+        "sr": 28,
+        "sr_pm_pp": 5.2,
+        "gain_pp": null,
+        "success_count": 336,
+        "total": 1200,
+        "ee_speed": 5.35,
+        "speed_pm": 1.59,
+        "ee_sparc": -8.34,
+        "ee_sparc_pm": null,
+        "obs": [
+          "RGB",
+          "P"
+        ],
+        "ours": false
+      }
+    ],
+    "specific": [
+      {
+        "rank": 1,
+        "policy": "Cosmos3-Nano-Policy + ARC",
+        "type": "WAM",
+        "sr": 51.2,
+        "sr_pm_pp": 2.7,
+        "gain_pp": 11.5,
+        "success_count": null,
+        "total": null,
+        "ee_speed": 7.34,
+        "speed_pm": 2.45,
+        "ee_sparc": -5.9,
+        "ee_sparc_pm": 3.11,
+        "obs": [
+          "RGB",
+          "P"
+        ],
+        "ours": true
+      },
+      {
+        "rank": 2,
+        "policy": "π0.5 + ARC",
+        "type": "VLA",
+        "sr": 45.0,
+        "sr_pm_pp": 2.5,
+        "gain_pp": 16.9,
+        "success_count": null,
+        "total": null,
+        "ee_speed": 4.34,
+        "speed_pm": 1.45,
+        "ee_sparc": -5.88,
+        "ee_sparc_pm": 2.11,
+        "obs": [
+          "RGB",
+          "P"
+        ],
+        "ours": true
+      },
+      {
+        "rank": 3,
+        "policy": "Cosmos3-Nano-Policy",
+        "type": "WAM",
+        "sr": 39.7,
+        "sr_pm_pp": 5.6,
+        "gain_pp": null,
+        "success_count": 476,
+        "total": 1200,
+        "ee_speed": 7.31,
+        "speed_pm": 1.94,
+        "ee_sparc": -5.99,
+        "ee_sparc_pm": null,
+        "obs": [
+          "RGB",
+          "P"
+        ],
+        "ours": false
+      },
+      {
+        "rank": 4,
+        "policy": "VoLo",
+        "type": "AGENT",
+        "sr": 31.4,
+        "sr_pm_pp": 5.3,
+        "gain_pp": null,
+        "success_count": 377,
+        "total": 1200,
+        "ee_speed": 5.49,
+        "speed_pm": 1.67,
+        "ee_sparc": -8.92,
+        "ee_sparc_pm": null,
+        "obs": [
+          "RGB",
+          "D",
+          "P"
+        ],
+        "ours": false
+      },
+      {
+        "rank": 5,
+        "policy": "BiMind v0.1",
+        "type": "VLA",
+        "sr": 30.6,
+        "sr_pm_pp": 5.3,
+        "gain_pp": null,
+        "success_count": 367,
+        "total": 1200,
+        "ee_speed": 5.05,
+        "speed_pm": 1.71,
+        "ee_sparc": -5.88,
+        "ee_sparc_pm": null,
+        "obs": [
+          "RGB",
+          "P"
+        ],
+        "ours": false
+      },
+      {
+        "rank": 6,
+        "policy": "Cosmos3-Edge-Policy",
+        "type": "WAM",
+        "sr": 28.8,
+        "sr_pm_pp": 5.2,
+        "gain_pp": null,
+        "success_count": 346,
+        "total": 1200,
+        "ee_speed": 7.14,
+        "speed_pm": 1.89,
+        "ee_sparc": -5.46,
+        "ee_sparc_pm": null,
+        "obs": [
+          "RGB",
+          "P"
+        ],
+        "ours": false
+      },
+      {
+        "rank": 7,
+        "policy": "π0.5",
+        "type": "VLA",
+        "sr": 28.1,
+        "sr_pm_pp": 5.2,
+        "gain_pp": null,
+        "success_count": 337,
+        "total": 1200,
+        "ee_speed": 5.32,
+        "speed_pm": 1.59,
+        "ee_sparc": -8.34,
+        "ee_sparc_pm": null,
+        "obs": [
+          "RGB",
+          "P"
+        ],
+        "ours": false
+      },
+      {
+        "rank": 8,
+        "policy": "DreamZero",
+        "type": "WAM",
+        "sr": 23.9,
+        "sr_pm_pp": 4.9,
+        "gain_pp": null,
+        "success_count": 287,
+        "total": 1200,
+        "ee_speed": 3.81,
+        "speed_pm": 1.41,
+        "ee_sparc": -6.41,
+        "ee_sparc_pm": null,
+        "obs": [
+          "RGB",
+          "P"
+        ],
+        "ours": false
+      },
+      {
+        "rank": 9,
+        "policy": "π0-FAST",
+        "type": "VLA",
+        "sr": 14.9,
+        "sr_pm_pp": 4.1,
+        "gain_pp": null,
+        "success_count": 179,
+        "total": 1200,
+        "ee_speed": 4.66,
+        "speed_pm": 1.77,
+        "ee_sparc": -9.63,
+        "ee_sparc_pm": null,
+        "obs": [
+          "RGB",
+          "P"
+        ],
+        "ours": false
+      },
+      {
+        "rank": 10,
+        "policy": "paligemma-binning",
+        "type": "VLA",
+        "sr": 5.5,
+        "sr_pm_pp": 2.7,
+        "gain_pp": null,
+        "success_count": 66,
+        "total": 1200,
+        "ee_speed": 2.01,
+        "speed_pm": 1.77,
+        "ee_sparc": -16.52,
+        "ee_sparc_pm": null,
+        "obs": [
+          "RGB",
+          "P"
+        ],
+        "ours": false
+      },
+      {
+        "rank": 11,
+        "policy": "GR00T N1.6",
+        "type": "VLA",
+        "sr": 5.3,
+        "sr_pm_pp": 2.6,
+        "gain_pp": null,
+        "success_count": 64,
+        "total": 1200,
+        "ee_speed": 4.45,
+        "speed_pm": 1.41,
+        "ee_sparc": -6.87,
+        "ee_sparc_pm": null,
+        "obs": [
+          "RGB",
+          "P"
+        ],
+        "ours": false
+      }
+    ]
+  },
+  "molmo": [
+    {
+      "rank": 1,
+      "policy": "Cosmos3-Nano-Policy + ARC",
+      "sr": 57.6,
+      "gain_pp": 18.6,
+      "ours": true,
+      "tasks": "9/9"
+    },
+    {
+      "rank": 2,
+      "policy": "ZoeInside-VLA",
+      "sr": 49.5,
+      "gain_pp": null,
+      "ours": false,
+      "tasks": "9/9"
+    },
+    {
+      "rank": 3,
+      "policy": "Phoenix",
+      "sr": 48.0,
+      "gain_pp": null,
+      "ours": false,
+      "tasks": "9/9"
+    },
+    {
+      "rank": 4,
+      "policy": "π0.5 + ARC",
+      "sr": 45.0,
+      "gain_pp": 27.2,
+      "ours": true,
+      "tasks": "9/9"
+    },
+    {
+      "rank": 5,
+      "policy": "Cosmos3-Nano-Policy",
+      "sr": 39.0,
+      "gain_pp": null,
+      "ours": false,
+      "tasks": "9/9"
+    },
+    {
+      "rank": 6,
+      "policy": "WALL-OSS-0.5",
+      "sr": 38.5,
+      "gain_pp": null,
+      "ours": false,
+      "tasks": "9/9"
+    },
+    {
+      "rank": 7,
+      "policy": "TiPToP",
+      "sr": 34.7,
+      "gain_pp": null,
+      "ours": false,
+      "tasks": "7/9"
+    },
+    {
+      "rank": 8,
+      "policy": "PRTS-Droid",
+      "sr": 27.8,
+      "gain_pp": null,
+      "ours": false,
+      "tasks": "9/9"
+    },
+    {
+      "rank": 9,
+      "policy": "MolmoAct2 DROID",
+      "sr": 25.9,
+      "gain_pp": null,
+      "ours": false,
+      "tasks": "9/9"
+    },
+    {
+      "rank": 10,
+      "policy": "Psi-R2",
+      "sr": 22.8,
+      "gain_pp": null,
+      "ours": false,
+      "tasks": "9/9"
+    },
+    {
+      "rank": 11,
+      "policy": "π0.5 DROID",
+      "sr": 17.8,
+      "gain_pp": null,
+      "ours": false,
+      "tasks": "9/9"
+    }
+  ],
+  "reasoning": {
+    "sim": [
+      {
+        "rank": 1,
+        "policy": "Cosmos3-Nano-Policy + ARC",
+        "sr": 61.0,
+        "gain_pp": 50.0,
+        "ours": true
+      },
+      {
+        "rank": 2,
+        "policy": "π0.5 + ARC",
+        "sr": 57.0,
+        "gain_pp": 46.8,
+        "ours": true
+      },
+      {
+        "rank": 3,
+        "policy": "π0.5 + explicit subtasks",
+        "sr": 21.0,
+        "gain_pp": null,
+        "ours": false
+      },
+      {
+        "rank": 4,
+        "policy": "Cosmos3-Nano-Policy",
+        "sr": 11.0,
+        "gain_pp": null,
+        "ours": false
+      },
+      {
+        "rank": 5,
+        "policy": "π0.5",
+        "sr": 10.2,
+        "gain_pp": null,
+        "ours": false
+      }
+    ],
+    "hardware": [
+      {
+        "rank": 1,
+        "policy": "π0.5 + ARC",
+        "sr": 91.7,
+        "gain_pp": 82.2,
+        "ours": true
+      },
+      {
+        "rank": 2,
+        "policy": "Cosmos3-Nano-Policy",
+        "sr": 11.9,
+        "gain_pp": null,
+        "ours": false
+      },
+      {
+        "rank": 3,
+        "policy": "π0.5",
+        "sr": 9.5,
+        "gain_pp": null,
+        "ours": false
+      }
+    ]
+  },
+  "uncertaintyNote": "Uncertainties (±) are reproduced as reported."
+}

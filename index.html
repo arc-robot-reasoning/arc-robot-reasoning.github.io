@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="ARC: A Reasoning Recipe for Robot Foundation Models. Action-grounded causal traces improve pretrained robot policies without collecting new demonstrations.">
+  <meta name="theme-color" content="#ffffff">
+  <meta property="og:title" content="ARC: A Reasoning Recipe for Robot Foundation Models">
+  <meta property="og:description" content="ARC establishes a new state of the art on RoboLab-120 and MolmoSpaces using existing robot demonstrations and action-grounded reasoning.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://arc-robot-reasoning.github.io/assets/figures/teaser.png">
+  <meta property="og:url" content="https://arc-robot-reasoning.github.io/">
+  <link rel="canonical" href="https://arc-robot-reasoning.github.io/">
+  <title>ARC · A Reasoning Recipe for Robot Foundation Models</title>
+  <link rel="icon" href="assets/figures/arc.png" type="image/png">
+  <link rel="preload" href="assets/fonts/Inter-Regular.woff" as="font" type="font/woff" crossorigin>
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" type="module"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav-wrap" aria-label="Main navigation">
+      <a class="wordmark" href="#top" aria-label="ARC, back to top"><img src="assets/figures/arc.png" width="29" height="29" alt="">ARC<span class="wordmark-dot">.</span></a>
+      <div class="nav-links"><a href="#results">Results</a><a href="#hardware">Hardware</a><a href="#dataset">Dataset</a><a href="#method">Method</a></div>
+      <a class="nav-paper paper-link" href="assets/paper/arc-paper.pdf" target="_blank" rel="noopener">Paper <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero container" id="top" aria-labelledby="paper-title">
+      <div class="hero-mark"><img src="assets/figures/arc.png" width="64" height="64" alt="ARC lightbulb logo"><span>ARC</span></div>
+      <h1 id="paper-title">A Reasoning Recipe for<br class="desktop-break"> Robot Foundation Models</h1>
+      <p class="authors">Anonymous authors</p>
+      <p class="hero-summary"><strong>A new state of the art on RoboLab-120 and MolmoSpaces.</strong><br>No new robot demonstrations. No foundation-scale training.</p>
+      <div class="hero-actions">
+        <a class="button primary paper-link" href="assets/paper/arc-paper.pdf" target="_blank" rel="noopener"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M5 2h7l4 4v12H5zM12 2v5h4M8 11h5M8 14h5"/></svg>Read the paper</a>
+        <a class="button secondary" href="#hardware"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="m7 4 9 6-9 6z"/></svg>Watch the robots</a>
+      </div>
+    </section>
+
+    <section class="section results-section hero-results" id="results" aria-labelledby="results-title">
+      <div class="container"><div class="section-heading"><div><span class="eyebrow">Benchmark results</span><h2 id="results-title">State-of-the-art robot policies.</h2></div><p>Zero-shot evaluation on RoboLab-120 and MolmoSpaces.<br>Success rates in percent; gains in percentage points.</p></div>
+        <div class="benchmark-tabs" role="tablist" aria-label="Benchmark"><button class="active" role="tab" aria-selected="true" aria-controls="benchmark-panel" data-benchmark="robolab" id="benchmark-robolab">RoboLab-120</button><button role="tab" aria-selected="false" aria-controls="benchmark-panel" data-benchmark="molmo" id="benchmark-molmo" tabindex="-1">MolmoSpaces</button><button role="tab" aria-selected="false" aria-controls="benchmark-panel" data-benchmark="reasoning" id="benchmark-reasoning" tabindex="-1">Reasoning benchmarks</button></div>
+        <div id="benchmark-panel" role="tabpanel" aria-labelledby="benchmark-robolab" tabindex="0"><div class="table-toolbar"><div class="segmented" id="instruction-tabs" role="tablist" aria-label="Instruction setting"><button role="tab" aria-selected="false" data-condition="vague" tabindex="-1">Vague</button><button class="active" role="tab" aria-selected="true" data-condition="default">Default</button><button role="tab" aria-selected="false" data-condition="specific" tabindex="-1">Specific</button></div><label class="detail-toggle"><input id="detailed-metrics" type="checkbox">Include speed &amp; smoothness</label></div><div id="results-tables"></div><p class="table-note" id="table-note"></p></div>
+        <details class="appendix-links"><summary>Detailed results and training configurations <span aria-hidden="true">+</span></summary><div class="resource-grid"><a href="assets/paper/robolab-vague.pdf" target="_blank" rel="noopener">RoboLab · Vague <span>PDF ↗</span></a><a href="assets/paper/robolab-default.pdf" target="_blank" rel="noopener">RoboLab · Default <span>PDF ↗</span></a><a href="assets/paper/robolab-specific.pdf" target="_blank" rel="noopener">RoboLab · Specific <span>PDF ↗</span></a><a href="assets/paper/arc-vla-hyperparameters.pdf" target="_blank" rel="noopener">VLA training settings <span>PDF ↗</span></a><a href="assets/paper/arc-wam-hyperparameters.pdf" target="_blank" rel="noopener">WAM training settings <span>PDF ↗</span></a></div></details>
+        <div class="highlights" aria-label="Selected results from the paper">
+        <div><span class="metric">91.7<span>%</span></span><span class="metric-label">Real-robot task success</span><span class="metric-detail">π<sub>0.5</sub> + ARC · +82.2 pp</span></div>
+        <div><span class="metric">61.0<span>%</span></span><span class="metric-label">RoboLab-Reasoning-50</span><span class="metric-detail">Cosmos3-Nano-Policy + ARC · +50.0 pp</span></div>
+        <div><span class="metric">57.6<span>%</span></span><span class="metric-label">MolmoSpaces task success</span><span class="metric-detail">Cosmos3-Nano-Policy + ARC · +18.6 pp</span></div>
+      </div>
+      </div>
+    </section>
+
+    <section class="container paper-overview" aria-label="ARC overview figure">
+      <figure class="overview-figure">
+        <button class="figure-button" data-zoom="assets/figures/teaser.webp" data-pdf="assets/figures/teaser.pdf" data-title="The ARC framework" aria-label="Enlarge the ARC overview figure">
+          <img src="assets/figures/teaser.webp" width="2000" height="1242" alt="ARC automatically labels existing robot demonstrations with action-grounded causal reasoning traces, then adapts vision-language-action and world-action policies using that supervision." loading="lazy">
+          <span class="expand-hint" aria-hidden="true">↗</span>
+        </button>
+        <figcaption>ARC labels existing demonstrations with action-grounded traces and fine-tunes pretrained robot policies.</figcaption>
+      </figure>
+    </section>
+
+    <section class="abstract-section container narrow" id="overview" aria-labelledby="abstract-title">
+      <span class="eyebrow">The idea</span><h2 id="abstract-title">Reasoning grounded in the next action.</h2>
+      <p>ARC improves pretrained robot policies through action-grounded reasoning, without new robot demonstrations or foundation-scale training. Each trace explains <strong>why the next action is appropriate and what it should accomplish</strong>. The policy learns to use that explanation to choose its actions.</p>
+      <p>The same recipe improves both π<sub>0.5</sub> and Cosmos3-Nano-Policy: new state-of-the-art results on RoboLab-120 and MolmoSpaces, gains of up to <strong>50 percentage points</strong> on RoboLab-Reasoning-50, and <strong>91.7% real-robot success</strong> for π<sub>0.5</sub> + ARC, up from 9.5%.</p>
+      <details class="abstract-full"><summary>Read the full abstract <span aria-hidden="true">+</span></summary><div id="full-abstract"></div></details>
+    </section>
+
+    <section class="section hardware-section" id="hardware" aria-labelledby="hardware-title">
+      <div class="container">
+        <div class="section-heading"><div><span class="eyebrow">On real robots</span><h2 id="hardware-title">Same task. Three policies.</h2></div><p>ARC here is π<sub>0.5</sub> fine-tuned with the ARC recipe.<br>No additional hardware-specific fine-tuning.</p></div>
+        <div class="task-tabs" id="task-tabs" role="tablist" aria-label="Hardware comparison task"></div>
+        <div id="comparison-panel" role="tabpanel" tabindex="0">
+          <div class="demo-heading"><div><span class="category-label" id="demo-category"></span><h3 id="demo-instruction"></h3></div><span class="speed-note">3× recorded speed</span></div>
+          <div class="transport" id="comparison-transport"><button class="play-all" type="button" aria-label="Play all three videos"><span class="play-icon" aria-hidden="true">▶</span><span class="play-text">Play comparison</span></button><button class="restart" type="button" aria-label="Restart comparison">↺</button><input class="timeline" aria-label="Comparison playback position" type="range" min="0" max="1" step="0.01" value="0"><span class="time-readout">0:00 / 0:00</span><label class="rate-label"><span class="sr-only">Playback speed</span><select class="playback-rate" aria-label="Playback speed"><option value="1">1× playback</option><option value="0.5">0.5× playback</option><option value="0.3333333333">Real time</option></select></label></div>
+          <div class="video-grid" id="comparison-videos"></div>
+
+          <div class="trace-panel" id="comparison-trace" hidden></div>
+          <p class="demo-footnote">The videos start together. Each policy retains its recorded timing; shorter runs hold on their final frame.</p>
+        </div>
+        <div class="dynamic-section"><div class="subsection-heading"><h3>When the scene changes</h3><p>Two additional ARC rollouts in dynamic environments.</p></div><div class="dynamic-grid" id="dynamic-videos"></div></div>
+      </div>
+    </section>
+
+    <section class="section dataset-section" id="dataset" aria-labelledby="dataset-title">
+      <div class="container">
+        <div class="section-heading"><div><span class="eyebrow">The dataset</span><h2 id="dataset-title"><img src="assets/figures/arc.png" width="40" height="42" alt="">ARC-TRACE-DROID</h2></div><p>75K demonstrations. 1.2M annotated frames.<br>Action-grounded reasoning from existing robot data.</p></div>
+        <figure class="dataset-trailer"><video controls playsinline preload="none" poster="assets/posters/arc-trace-droid-trailer.jpg" aria-label="ARC-TRACE-DROID dataset trailer"><source src="assets/videos/arc-trace-droid-trailer.mp4" type="video/mp4">Your browser does not support this video. <a href="assets/videos/arc-trace-droid-trailer.mp4">Download the dataset trailer.</a></video><figcaption>Robot demonstrations paired with state, cause, consequence, effect, action, avoidance, and completion.</figcaption></figure>
+      </div>
+    </section>
+
+    <section class="section container" id="method" aria-labelledby="method-title">
+      <div class="section-heading"><div><span class="eyebrow">The recipe</span><h2 id="method-title">How ARC trains robot policies.</h2></div></div>
+      <div class="recipe-grid">
+        <article><span class="step-number">01</span><h3>Explain the next action</h3><p>Connect the current state to a cause, a possible consequence, and an intended effect. Specify the next action, what to avoid, and whether the task is complete.</p></article>
+        <article><span class="step-number">02</span><h3>Label existing demonstrations</h3><p>Automatically recover reasoning from DROID demonstrations: approximately <strong>75K episodes</strong> and <strong>1.2M action-aligned frames</strong>, with no new robot trajectories.</p></article>
+        <article><span class="step-number">03</span><h3>Fine-tune the policy</h3><p>Fine-tune the pretrained model to predict demonstrated actions conditioned on causal traces, observations, and instructions. Tailor the recipe to each architecture.</p></article>
+      </div>
+      <div class="trace-anatomy"><span class="trace-label">ARC-Trace</span><div class="trace-tokens" aria-label="Causal trace components"><span>[State]</span><span>[Cause]</span><span>[Consequence]</span><span>[Effect]</span><span>[Action]</span><span>[Avoid]</span><span>[Completion]</span></div></div>
+      <details class="attention-detail"><summary>The ARC-Trace labeling pipeline <span aria-hidden="true">+</span></summary><figure><button class="figure-button" data-zoom="assets/figures/relabel2.webp" data-pdf="assets/figures/relabel2.pdf" data-title="The ARC-Trace labeling pipeline" aria-label="Enlarge the demonstration relabeling pipeline"><img src="assets/figures/relabel2.webp" width="2000" height="1334" loading="lazy" alt="ARC-Trace derives episode context and state checks from demonstrations, then generates causal traces aligned with selected keyframes."><span class="expand-hint" aria-hidden="true">↗</span></button></figure></details>
+      <div class="architecture-panel">
+        <div class="architecture-copy"><div class="segmented" role="tablist" aria-label="Policy architecture"><button class="active" type="button" role="tab" aria-selected="true" aria-controls="architecture-content" id="architecture-vla" data-architecture="vla">VLA</button><button type="button" role="tab" aria-selected="false" aria-controls="architecture-content" id="architecture-wam" data-architecture="wam" tabindex="-1">WAM</button></div><div id="architecture-content" role="tabpanel" aria-labelledby="architecture-vla"><h3>π<sub>0.5</sub>-DROID + ARC</h3><p>Jointly fine-tune the vision-language backbone, trace encoder, and action expert. Factual examples use flow matching; contradictory traces receive a counterfactual margin loss.</p><ul><li>Continuous action prediction</li><li>Trace-conditioned action expert</li><li>Counterfactual supervision</li></ul></div></div>
+        <figure><button class="figure-button" id="architecture-figure" data-zoom="assets/figures/arc-pi05-finetuning.webp" data-pdf="assets/figures/arc-pi05-finetuning.pdf" data-title="ARC fine-tuning: π0.5-DROID" aria-label="Enlarge the training architecture"><img id="architecture-image" src="assets/figures/arc-pi05-finetuning.webp" width="1976" height="2000" loading="lazy" alt="ARC joint fine-tuning architecture for π0.5-DROID, with flow matching and a counterfactual margin loss."><span class="expand-hint" aria-hidden="true">↗</span></button></figure>
+      </div>
+    </section>
+
+
+
+    <section class="section container" id="analysis" aria-labelledby="analysis-title">
+      <div class="section-heading"><div><span class="eyebrow">What changes with reasoning</span><h2 id="analysis-title">Robustness, efficiency, and grounding.</h2></div></div>
+      <div class="finding-grid">
+        <article><div class="finding-title"><span>01</span><h3>Less dependence on instruction detail</h3></div><p>ARC policies are less sensitive to instruction detail: performance stays stronger across vague, default, and specific instructions, while base policies deteriorate as instructions become less explicit.</p><figure><button class="figure-button" data-zoom="assets/figures/arc_instruction_specificity.webp" data-pdf="assets/figures/arc_instruction_specificity.pdf" data-title="Robustness to instruction specificity" aria-label="Enlarge the instruction specificity plot"><img src="assets/figures/arc_instruction_specificity.webp" width="2000" height="1045" loading="lazy" alt="RoboLab-120 success rates across instruction specificity, comparing ARC-fine-tuned and base policies."><span class="expand-hint" aria-hidden="true">↗</span></button></figure></article>
+        <article><div class="finding-title"><span>02</span><h3>Fewer action-generation steps</h3></div><p>π<sub>0.5</sub> + ARC comes within 0.4 percentage points of its ten-step base policy using one Euler step. Cosmos3-Nano-Policy + ARC exceeds its four-step base policy with two UniPC steps.</p><figure><button class="figure-button" data-zoom="assets/figures/kf3-inf.webp" data-pdf="assets/figures/kf3-inf.pdf" data-title="Action-generation efficiency" aria-label="Enlarge the inference efficiency plots"><img src="assets/figures/kf3-inf.webp" width="2000" height="1006" loading="lazy" alt="Success rate versus Euler steps for π0.5 and UniPC steps for Cosmos3-Nano-Policy."><span class="expand-hint" aria-hidden="true">↗</span></button></figure><p class="fine-print">Solver-step reductions concern action generation; reasoning and context encoding remain separate costs.</p></article>
+      </div>
+      <article class="training-finding"><div><div class="finding-title"><span>03</span><h3>Reach target success with fewer updates</h3></div><p>On RoboLab-120 (specific), Cosmos3-Nano-Policy + ARC reaches the instruction-only baseline's 10K-iteration performance with approximately <strong>4.3× fewer training updates</strong>, then continues to improve.</p></div><figure><button class="figure-button" data-zoom="assets/figures/kf2-arc.webp" data-pdf="assets/figures/kf2-arc.pdf" data-title="Training efficiency" aria-label="Enlarge the training efficiency plot"><img src="assets/figures/kf2-arc.webp" width="2000" height="1234" loading="lazy" alt="Success rate versus training iterations for Cosmos3-Nano-Policy with ARC and the instruction-only baseline."><span class="expand-hint" aria-hidden="true">↗</span></button></figure></article>
+      <article class="ablation-block"><div class="subsection-heading"><h3>Which choices matter?</h3><p>Ablations vary the external reasoner, trace content, and fine-tuning strategy.</p></div><figure><button class="figure-button" data-zoom="assets/figures/ablations.webp" data-pdf="assets/figures/ablations.pdf" data-title="ARC ablations on RoboLab-120" aria-label="Enlarge all three ablation plots"><img src="assets/figures/ablations.webp" width="2000" height="692" loading="lazy" alt="Ablations of external reasoning models, causal-trace components, and full versus partial fine-tuning."><span class="expand-hint" aria-hidden="true">↗</span></button><figcaption>Complete causal context and full fine-tuning improve how effectively the controller uses the trace.</figcaption></figure></article>
+      <details class="attention-detail"><summary>How the action head attends to reasoning <span aria-hidden="true">+</span></summary><figure><button class="figure-button" data-zoom="assets/figures/attention.webp" data-pdf="assets/figures/attention.pdf" data-title="Trace conditioning and action-head attention" aria-label="Enlarge the attention analysis"><img src="assets/figures/attention.webp" width="2000" height="1269" loading="lazy" alt="Attention analysis comparing reasoning representations and their use by the action head."><span class="expand-hint" aria-hidden="true">↗</span></button><figcaption>Attention provides evidence of trace use; the behavioral evaluations test its effect on task performance.</figcaption></figure></details>
+    </section>
+
+    <section class="section deployment-section"><div class="container deployment-grid"><div><span class="eyebrow">Deployment</span><h2>Reason asynchronously.<br>Keep the robot moving.</h2><p>A background VLM refreshes reasoning from the current camera views. The policy uses the latest validated trace while executing 15-action chunks at <strong>15 Hz</strong>.</p><p>Reasoning refresh and robot control are separate rates. The example rollout in the paper refreshes reasoning at approximately 1 Hz.</p></div><figure><button class="figure-button" data-zoom="assets/figures/arc-realtime-inference.webp" data-pdf="assets/figures/arc-realtime-inference.pdf" data-title="Asynchronous real-time deployment" aria-label="Enlarge the real-time deployment architecture"><img src="assets/figures/arc-realtime-inference.webp" width="2000" height="969" loading="lazy" alt="An asynchronous VLM updates a validated trace buffer consumed by the action policy while robot control continues."><span class="expand-hint" aria-hidden="true">↗</span></button></figure></div></section>
+
+    <section class="container closing"><img src="assets/figures/arc.png" width="45" height="45" alt=""><h2>Read the full paper.</h2><a class="button primary paper-link" href="assets/paper/arc-paper.pdf" target="_blank" rel="noopener">Read the paper <span aria-hidden="true">↗</span></a><p>Models, code, and ARC-Trace-DROID will be released after the review period.</p></section>
+  </main>
+  <footer class="site-footer container"><span>ARC · Anonymous authors</span><a href="#top">Back to top ↑</a></footer>
+  <dialog id="figure-dialog" aria-labelledby="dialog-title"><div class="dialog-toolbar"><h2 id="dialog-title"></h2><a id="dialog-pdf" target="_blank" rel="noopener">Open PDF ↗</a><button type="button" id="close-dialog" aria-label="Close enlarged figure">×</button></div><div class="dialog-image-wrap"><img id="dialog-image" alt=""></div></dialog>
+  <noscript><div class="noscript-note">Enable JavaScript to switch benchmark tables and play synchronized comparisons. All paper figures and PDF downloads remain available.</div></noscript>
+</body>
+</html>

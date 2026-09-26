@@ -1,0 +1,760 @@
+{
+  "version": 1,
+  "groups": {
+    "discovery": {
+      "provenance": "authored",
+      "segments": [
+        {
+          "start": 0,
+          "end": 1.5,
+          "text": "The mustard bottle stands among loose objects and obscures the target behind it. The instruction identifies that target by its position relative to the bottle. Moving other objects first could make the original spatial relation ambiguous. The obstruction needs to be cleared while preserving the surrounding arrangement. Approach the bottle for a separate move onto the plate. Do not collect the bottle as the final target. The hidden target has not yet been transferred."
+        },
+        {
+          "start": 1.5,
+          "end": 2.7,
+          "text": "The gripper approaches the bottle's top while the nearby blocks remain still. Removing the bottle is necessary to expose the instructed target. A loose grasp could tip the bottle into the neighboring objects. The bottle needs to be secured without altering their positions. Close around the bottle and lift it clear of the table. Do not sweep the adjacent blocks aside during pickup. The obstruction is being grasped, and target discovery remains unfinished."
+        },
+        {
+          "start": 2.7,
+          "end": 3.5,
+          "text": "The held bottle moves left toward the plate, exposing its former location. The plate provides a temporary resting place away from the target. Releasing before the base is supported could tip the bottle. The bottle needs a stable position that leaves the target accessible. Carry it clear of the blocks and lower it upright. Do not let it fall across the route to the bowl. The relocation is underway, while the target still remains outside the bowl."
+        },
+        {
+          "start": 3.5,
+          "end": 5.2,
+          "text": "The bottle stands upright on the plate with the gripper near its top. Its supported base allows the fingers to release without further relocation. Pulling sideways during withdrawal could knock it toward the bowl. The bottle needs to remain stable while the gripper becomes free. Open the fingers and withdraw above the bottle. Do not drag the bottle off its temporary resting place. The obstruction has moved, but the revealed target still needs transfer."
+        },
+        {
+          "start": 5.2,
+          "end": 6.6,
+          "text": "The empty gripper leaves the bottle and approaches the exposed strawberry. The strawberry occupies the position revealed by moving the bottle aside. Grasping a neighboring block would select the wrong object. The fruit needs to be isolated without disturbing the surrounding arrangement. Lower the open fingers toward the strawberry's sides. Do not include the nearby green or wooden block in the grasp. The target is exposed, but its pickup has not yet succeeded."
+        },
+        {
+          "start": 6.6,
+          "end": 7.8,
+          "text": "The fingers contact the strawberry and it shifts along the tabletop. The contact has changed the fruit's position without establishing a stable grasp. Continued sideways pressure could roll it farther from the fingers. The strawberry needs to be recentered between the gripping surfaces. Adjust the approach to its new position before closing again. Do not keep pushing along the table to chase it. The fruit remains on the table, so the pickup is incomplete."
+        },
+        {
+          "start": 7.8,
+          "end": 8.8,
+          "text": "The strawberry remains on the table as the gripper adjusts above it. Its shifted position requires another alignment before a stable pickup. Closing off center could push the fruit away again. The next contact needs to secure the fruit between both fingers. Center the gripper around its body and close before lifting. Do not scrape the fruit sideways toward the nearby block. The target remains correctly selected, but the grasp is still being established."
+        },
+        {
+          "start": 8.8,
+          "end": 9.9,
+          "text": "The strawberry lifts with the closed gripper and moves toward the orange bowl. The bowl is the required destination for the revealed object. An early release could drop the fruit onto the table. The fruit needs to reach the bowl opening while remaining securely held. Lift clear of the blocks and carry it over the bowl. Do not open the fingers during the unsupported carry. The target has been picked up, but its placement is still underway."
+        },
+        {
+          "start": 9.9,
+          "end": 10.7,
+          "text": "The held strawberry reaches the bowl area and lowers behind the mustard bottle. The bowl is the instructed destination for the revealed fruit. Releasing beside the rim could leave the fruit outside the bowl. The fruit needs to come to rest inside the container. Lower over the opening, release, and withdraw clear of the rim. Do not let the fruit catch on the rim during release. The bottle obscures the fruit's final resting position in the last view."
+        }
+      ]
+    },
+    "swap": {
+      "provenance": "authored",
+      "segments": [
+        {
+          "start": 0,
+          "end": 4,
+          "text": "The banana starts in the bowl, while the marker and two blocks occupy the plate. The swap depends on preserving which container each item came from. Mixing these groups could make the final arrangement incorrect. The bowl should become available for the original plate contents. Prepare to move the banana temporarily onto the table. Do not include unrelated objects in the exchange. Both containers still hold their original contents."
+        },
+        {
+          "start": 4,
+          "end": 7,
+          "text": "The arm remains raised and both containers still hold their original contents. The occupied plate leaves little room for the banana. Placing it there immediately could obstruct the remaining transfers. An intermediate resting place should preserve access to both groups. Approach the banana in the bowl before moving the plate items. Do not disturb the nearby mug, bottles, or can. The first transfer has not yet been completed."
+        },
+        {
+          "start": 7,
+          "end": 10,
+          "text": "The gripper moves down toward the banana in the orange bowl. The curved fruit sits close to the container rim. An off-center approach could push it against the bowl. The fingers should establish contact with the banana alone. Align around an accessible section and descend slowly. Do not clamp onto the rim or move the bowl. The banana remains inside its original container."
+        },
+        {
+          "start": 10,
+          "end": 13,
+          "text": "The fingers are low over the banana, but the fruit has not cleared the bowl. Contact alone does not establish a stable hold. An insecure grasp could slip during the first lift. The banana should become firmly supported between the fingers. Refine the finger position within the bowl opening. Do not lift by catching the fruit against the rim. The transfer is still at the grasping stage."
+        },
+        {
+          "start": 13,
+          "end": 16,
+          "text": "The banana remains in the bowl while the gripper adjusts around it. The hand must separate the fruit from its surrounding container. Pulling sideways at this height could drag the bowl along. A controlled grasp should allow the banana to clear the rim. Secure the fruit before moving toward the temporary resting area. Do not sweep the bowl across the table. The bowl has not yet been cleared."
+        },
+        {
+          "start": 16,
+          "end": 19,
+          "text": "The gripper is still working close to the banana inside the bowl. The first transfer requires clearance above the container edge. Moving laterally too soon could snag the fruit on the rim. The banana should rise without bringing the bowl with it. Close around the fruit and begin a controlled vertical lift. Do not pull sideways while the fruit remains below the rim. The original plate contents are still waiting to be transferred."
+        },
+        {
+          "start": 19,
+          "end": 21,
+          "text": "The banana begins to rise from the bowl in the gripper. The plate remains occupied, so it cannot receive the fruit yet. Releasing during the crossing could drop the banana between containers. The bowl should stay clear while the fruit reaches temporary storage. Carry the held banana toward the open table area beside the plate. Do not release before reaching that supporting surface. The first transfer is underway and the exchange remains incomplete."
+        },
+        {
+          "start": 21,
+          "end": 23.5,
+          "text": "The held banana is lowered onto the table between the two containers. This temporary placement preserves space for clearing the plate. Opening above the surface could let the fruit fall or roll. The banana should rest securely within reach for the final transfer. Lower it gently and release once the table supports it. Do not knock the adjacent items on the plate. The bowl is being cleared, but its original item remains unexchanged."
+        },
+        {
+          "start": 23.5,
+          "end": 27,
+          "text": "The banana now rests on the table and the arm retracts above it. The available bowl can receive the original plate contents. Disturbing the banana could complicate its later transfer. The temporary placement should remain stable while the next pick is prepared. Raise the open gripper clear of the fruit. Do not return the banana to the bowl. The plate still contains all of its original items."
+        },
+        {
+          "start": 27,
+          "end": 30,
+          "text": "The bowl is empty and the marker remains with both blocks on the plate. Those three items must move before the banana can occupy the plate. Selecting an unrelated table object would not advance the swap. The next transfer should begin clearing the original plate contents. Select the marker while preserving access to the nearby blocks. Do not collect the banana again at this stage. Only the temporary clearing of the bowl is complete."
+        },
+        {
+          "start": 30,
+          "end": 33,
+          "text": "The arm reorients toward the occupied plate with an open gripper. The slim marker lies close to both blocks. A broad approach could disturb several objects at once. The marker should be isolated for an independent transfer. Align the fingers above its accessible section. Do not sweep either block off the plate. The marker has not yet left its original location."
+        },
+        {
+          "start": 33,
+          "end": 36,
+          "text": "The gripper moves over the marker on the plate. Its narrow body requires precise alignment between the fingers. An off-center closure could push it into a neighboring block. The marker should become securely grasped without moving the other items. Lower the fingers around the marker and prepare to close. Do not trap a block in the same grasp. The first plate-to-bowl transfer is still being prepared."
+        },
+        {
+          "start": 36,
+          "end": 38.5,
+          "text": "The fingers close near the marker among the plate's remaining contents. The marker needs a stable hold before crossing the container gap. A loose grasp could let it fall back onto the plate. The marker should clear the surrounding blocks as a single held item. Lift carefully once the fingers have secured it. Do not disturb the banana at its temporary resting spot. The marker transfer remains underway rather than complete."
+        },
+        {
+          "start": 38.5,
+          "end": 40.5,
+          "text": "The marker is lifted away from the plate as the arm turns toward the bowl. Its original location assigns it to the bowl in the reversed arrangement. Releasing onto the table would leave another item awaiting transfer. The held marker should reach the bowl opening intact. Maintain the grip while positioning it above the bowl. Do not return it to the plate. Both blocks still remain in their original container."
+        },
+        {
+          "start": 40.5,
+          "end": 43,
+          "text": "The gripper lowers over the orange bowl to place the marker. The small object needs to land inside the container opening. An early release could drop it between the bowl and plate. The marker should remain in the bowl after the gripper withdraws. Lower it into the opening, release, and retract carefully. Do not drag it back out during withdrawal. The two blocks still require transfer from the plate."
+        },
+        {
+          "start": 43,
+          "end": 46.5,
+          "text": "The arm retracts after the marker transfer, while both blocks remain on the plate. Continuing with the original plate group preserves the intended exchange. Collecting the banana now could obstruct the remaining block transfers. The wooden block should become the next item assigned to the bowl. Turn back toward it with the gripper open. Do not disturb the marker already placed in the bowl. The plate is only partially cleared."
+        },
+        {
+          "start": 46.5,
+          "end": 49,
+          "text": "The gripper approaches the wooden block on the plate. The neighboring red block needs to remain stable during this pick. A sideways contact could push either block over the plate edge. The wooden block should be grasped without displacing its neighbor. Center the fingers on the wooden block and descend. Do not clamp both blocks together. The wooden block has not yet reached the bowl."
+        },
+        {
+          "start": 49,
+          "end": 51,
+          "text": "The fingers secure the wooden block and begin lifting it from the plate. Vertical clearance is needed before crossing toward the bowl. Traveling sideways too low could scrape the plate or catch the red block. The wooden block should move freely above the surrounding objects. Lift clear, then carry it toward the bowl with the grip maintained. Do not knock the remaining red block off the plate. The second plate item is still in transfer."
+        },
+        {
+          "start": 51,
+          "end": 54.5,
+          "text": "The wooden block is lowered into the orange bowl beside the transferred marker. Both items need to remain together in their new container. Withdrawing while still gripping could remove the block again. The wooden block should stay supported inside the bowl. Release it once supported and raise the open fingers. Do not catch the marker while clearing the contents. The red block still remains on the plate."
+        },
+        {
+          "start": 54.5,
+          "end": 58,
+          "text": "The arm rises from the bowl, leaving the red block as the last original plate item. The plate must be cleared before receiving the banana. Returning the banana early could crowd the final block transfer. The remaining plate area should stay accessible for the red-block grasp. Reorient toward the red block while clearing the bowl rim. Do not move the banana back onto the occupied plate. One original plate item still needs the bowl."
+        },
+        {
+          "start": 58,
+          "end": 61,
+          "text": "The gripper travels back toward the red block on the plate. Removing the other plate items has opened a direct approach. Confusing it with the nearby banana would interrupt the exchange. The gripper should reach the last original plate item alone. Line up above the red block before descending. Do not collect the banana from the table yet. The plate remains occupied by its final block."
+        },
+        {
+          "start": 61,
+          "end": 63.5,
+          "text": "The open fingers descend around the red block. Clearing this last item will make space for the original bowl contents. Uneven contact could slide the block across the smooth plate. The red block should become securely held without shifting the plate. Close evenly around its sides and prepare to lift. Do not push it over the plate edge. The final plate-to-bowl transfer has not finished."
+        },
+        {
+          "start": 63.5,
+          "end": 65.5,
+          "text": "The red block is grasped and begins to leave the plate. Its removal must be followed by placement with the other original plate items. Low lateral movement could strike the plate or the nearby banana. The block should clear the plate while the temporary banana placement stays intact. Lift before traveling sideways toward the bowl. Do not put the red block onto the table. The block is still being transferred to its destination."
+        },
+        {
+          "start": 65.5,
+          "end": 68,
+          "text": "The red block crosses to the orange bowl and is lowered toward its opening. It must join the marker and wooden block already transferred there. Contact with those contents could deflect it outside the bowl. All original plate items should remain together in their new container. Keep the block centered while lowering it into the bowl. Do not return it to the cleared plate. The banana still awaits its final move from the table."
+        },
+        {
+          "start": 68,
+          "end": 70.5,
+          "text": "The gripper remains low in the bowl as the red block is placed. The fingers must release before the arm can retreat safely. Pulling away too soon could lift the block back out. The transferred objects should stay together inside the bowl. Open the fingers and withdraw above the rim. Do not displace the marker or wooden block during withdrawal. The exchange still requires placing the banana on the plate."
+        },
+        {
+          "start": 70.5,
+          "end": 72.5,
+          "text": "The plate is clear and the banana is still waiting on the table. The original bowl item now belongs on the plate. Leaving it on the table would leave the exchange incomplete. The banana should occupy the space cleared by the three transfers. Approach the fruit while keeping clear of the bowl. Do not remove any transferred item from the bowl. Only the banana's final transfer remains."
+        },
+        {
+          "start": 72.5,
+          "end": 74.5,
+          "text": "The gripper lowers around the banana at its temporary resting spot. The curved fruit needs a stable grasp for the short crossing. Dragging it sideways could roll it toward the plate edge. The banana should rise cleanly from the table. Close around an accessible section and lift before moving. Do not push the fruit against the plate. The banana has not yet been placed in its destination."
+        },
+        {
+          "start": 74.5,
+          "end": 76.5,
+          "text": "The banana is lifted and carried over the cleared plate. The bowl already holds the original plate group. An off-center descent could leave the fruit resting across the rim. The banana should become fully supported within the plate. Center it over the plate and lower gently. Do not place it back into the bowl. The final transfer is underway and still requires release."
+        },
+        {
+          "start": 76.5,
+          "end": 79,
+          "text": "The banana is supported on the plate while the gripper remains close. The reversed arrangement depends on leaving the fruit there after withdrawal. A lingering grip could carry it back away from the plate. The banana should remain independently supported in its new location. Open the fingers and rise away carefully. Do not disturb the contents now collected in the bowl. The final placement is being checked during release."
+        },
+        {
+          "start": 79,
+          "end": 81.166667,
+          "text": "The gripper withdraws and the banana remains on the plate. The visible container contents now match the requested exchange. Further contact could undo the arrangement or move the fruit off the plate. Both transferred groups should remain stable in their new containers. Clear the workspace and check the visible placements. Do not pick up another object after the exchange. The reversed arrangement is visible, with the banana supported on the plate."
+        }
+      ]
+    },
+    "dynamic-smallest": {
+      "provenance": "authored",
+      "segments": [
+        {
+          "start": 0,
+          "end": 1.3,
+          "text": "The blue block is visibly smaller than the green, yellow, and wooden blocks. The instruction selects the smallest block in the current scene. Choosing by color without comparing sizes could select the wrong candidate. The smallest available block needs to be isolated for the bin. Approach blue with the open gripper. Do not move a larger block while blue is available. The correct candidate is visible, but no pickup has been completed."
+        },
+        {
+          "start": 1.3,
+          "end": 2.0,
+          "text": "The arm approaches blue as a hand enters the block's location. This intervention can change which candidates remain available during the reach. Continuing unchanged could close the fingers at an obsolete target position. The selection needs to remain consistent with the visible scene. Keep the fingers open and reassess as the hand moves the block. Do not close against the hand or assume blue remains stationary. The initial approach is underway, but a secure pickup has not occurred."
+        },
+        {
+          "start": 2.0,
+          "end": 3.8,
+          "text": "Blue is absent from the table and the gripper withdraws from its former location. Its removal changes the comparison among the remaining blocks. Continuing the old reach would grasp empty space. The target selection needs to shift to the smallest remaining candidate. Compare the visible blocks and turn toward green. Do not continue reaching for the previous blue-block position. The original target is unavailable, and a replacement pickup remains pending."
+        },
+        {
+          "start": 3.8,
+          "end": 5.2,
+          "text": "The arm turns toward green and lowers open fingers around it. Green is smaller than the remaining yellow and wooden blocks. An off-center approach could push it into a larger neighbor. The current smallest block needs an isolated, stable grasp. Align the fingers on green's sides before closing. Do not grasp the adjacent yellow or wooden block. Green is the current candidate, but its transfer has not yet begun."
+        },
+        {
+          "start": 5.2,
+          "end": 7.1,
+          "text": "The gripper closes around green, lifts it, and starts toward the bin. Green satisfies the size rule while the smaller blue block remains absent. A changed scene could invalidate this selection before release. The current smallest candidate needs to reach the bin without being dropped. Carry green securely while checking the visible candidates. Do not release it if a smaller available block appears. The selected block is in transit, and the size condition still requires monitoring."
+        },
+        {
+          "start": 7.1,
+          "end": 7.8,
+          "text": "Blue has returned while green is still held near the bin. Blue is smaller, so green no longer satisfies the current comparison. Depositing green now would place the wrong block in the bin. The selection needs to return to the newly available smallest candidate. Lower green onto the table and release it clear of its neighbors. Do not complete the outdated green-block transfer. The changed scene requires a correction before the requested placement can finish."
+        },
+        {
+          "start": 7.8,
+          "end": 9.7,
+          "text": "Green is back on the table and the empty gripper has withdrawn above the bin. Blue is available again and is smaller than the other candidates. Returning to green would repeat the invalidated selection. The next pickup needs to isolate blue while preserving the larger blocks. Reorient the open gripper toward blue's current position. Do not place green or either larger block in the bin. The incorrect transfer has been interrupted, but the correct block still needs pickup."
+        },
+        {
+          "start": 9.7,
+          "end": 10.6,
+          "text": "The arm moves left and lowers open fingers beside the returned blue block. Blue still satisfies the size comparison against its nearby neighbors. An offset closing motion could push it into the yellow block. The smallest block needs to be centered within the gripper. Align the fingers with blue's sides before closing. Do not include the adjacent yellow block in the grasp. The corrected approach is underway, but blue remains on the table."
+        },
+        {
+          "start": 10.6,
+          "end": 11.3,
+          "text": "The fingers close around blue near the table surface. A secure grasp is necessary before carrying this small block to the bin. Lifting too early could leave it behind or slide it sideways. Blue needs to remain supported between both fingers during lift-off. Finish closing around its sides and begin the lift. Do not disturb the adjacent yellow and green blocks. The target is being secured, and the bin placement is not yet complete."
+        },
+        {
+          "start": 11.3,
+          "end": 12.0,
+          "text": "Blue lifts and moves over the bin before the gripper opens and retracts. It remains the smallest block while the larger candidates stay outside. Releasing against the rim could leave the block outside the container. The selected block needs to come to rest within the bin. Carry it over the opening and lower before release. Do not withdraw while the fingers still hold the block. The bin wall partly obscures the final placement after the gripper withdraws."
+        }
+      ]
+    },
+    "dynamic-sort": {
+      "provenance": "authored",
+      "segments": [
+        {
+          "start": 0,
+          "end": 1.7,
+          "text": "Yellow and green blocks sit among a banana and an orange between two bowls. The instruction assigns blocks to orange and fruit to black. Using one destination for both categories would mix the groups. The first block needs to be separated into the orange bowl. Begin an open-gripper approach toward the yellow block. Do not send a block to the black fruit bowl. All four visible objects still require their category-specific transfers."
+        },
+        {
+          "start": 1.7,
+          "end": 3.5,
+          "text": "The open gripper hovers near yellow and adjusts its alignment. A centered approach is needed to isolate yellow from the neighboring objects. Closing too widely could disturb green or the banana. Yellow needs to be secured without changing the surrounding arrangement. Lower around its sides and align before closing. Do not sweep a neighboring object into the pickup. The first block is being targeted, but its grasp remains unfinished."
+        },
+        {
+          "start": 3.5,
+          "end": 5.4,
+          "text": "Yellow is grasped and carried toward the orange bowl for lowering. Its block category determines the destination despite the other bowl being empty. An early release could leave it between the containers. Yellow needs to come to rest inside the block bowl. Carry it over the opening and lower past the rim. Do not place it in the black bowl. The first sorting transfer is underway, with other objects still outside."
+        },
+        {
+          "start": 5.4,
+          "end": 7.5,
+          "text": "Yellow is visible in the orange bowl as the gripper returns toward green. Green belongs to the same block category as the transferred object. A crowded approach could displace the orange fruit in front of it. Green needs to be isolated while the fruit remains undisturbed. Approach green's sides with open fingers. Do not collect the nearby orange during this reach. Yellow has been transferred, but green and both fruits remain unsorted."
+        },
+        {
+          "start": 7.5,
+          "end": 9.3,
+          "text": "The gripper descends around green, closes, and lifts it from the table. This block belongs with yellow in the orange bowl. Turning toward black would mix a block into the fruit destination. Green needs to join the existing block group. Maintain the grasp and carry it toward the orange bowl. Do not release it into the black bowl. Green is being transferred, and both fruit placements remain outstanding."
+        },
+        {
+          "start": 9.3,
+          "end": 11.3,
+          "text": "The held green block moves over the orange bowl beside yellow. The sorting rule groups both blocks in this container. Releasing against the outer edge could leave green on the table. The second block needs to rest within the bowl's rim. Lower green inside, open the fingers, and withdraw upward. Do not knock yellow out during placement. The block placement is in progress while both fruits remain outside."
+        },
+        {
+          "start": 11.3,
+          "end": 12.6,
+          "text": "The empty gripper leaves the block bowl and reaches around the banana. This change from block to fruit requires the black-bowl destination. Repeating the previous destination would mis-sort the banana. The fruit group needs its first item in the black bowl. Secure the banana's curved body before lifting it leftward. Do not carry it back into the orange bowl. The banana pickup is underway, and the fruit group is not yet complete."
+        },
+        {
+          "start": 12.6,
+          "end": 14.5,
+          "text": "The banana is carried left and lowered toward the black bowl. Its fruit category places it in this container rather than with the blocks. Its long end could catch the rim and fall outside. The whole banana needs support within the fruit bowl. Center it over the opening and lower before releasing. Do not disturb the sorted blocks in the orange bowl. The first fruit placement is underway, while the orange remains on the table."
+        },
+        {
+          "start": 14.5,
+          "end": 15.7,
+          "text": "The banana rests in black and the gripper approaches the loose orange. The orange is also fruit and belongs with the banana. An offset contact could roll it away from the fingers. The remaining fruit needs a stable grasp for the same destination. Close around the orange's center before lifting. Do not push it toward the block bowl. The banana is sorted, but the second fruit transfer has not finished."
+        },
+        {
+          "start": 15.7,
+          "end": 16.8,
+          "text": "The orange lifts and is briefly carried over the orange block bowl. Its fruit category requires black regardless of the matching color name. Releasing here would mix fruit with the sorted blocks. The held fruit needs to be redirected to the correct container. Keep the fingers closed and move back toward black. Do not release the orange over the block bowl. The fruit is held, but the destination is being corrected before placement."
+        },
+        {
+          "start": 16.8,
+          "end": 18.5,
+          "text": "The held orange moves away from the block bowl toward black. The correction follows the instruction that groups fruit together. Opening during the sideways carry could drop it between the bowls. The orange needs to reach the fruit bowl without an intermediate release. Maintain the grasp and clear the black bowl's rim before lowering. Do not return toward the block destination. The incorrect approach has been redirected, but the fruit remains in transit."
+        },
+        {
+          "start": 18.5,
+          "end": 20.3,
+          "text": "The orange lowers beside the banana while a red block is visible on the table. The fruit placement and the added block both follow the existing category rule. Stopping after this release would leave the new block unsorted. The fruit group needs to be secured before the next block transfer. Finish lowering the orange and withdraw after releasing. Do not dislodge the banana while opening the fingers. Fruit placement is finishing, but the visible red block still requires attention."
+        },
+        {
+          "start": 20.3,
+          "end": 21.8,
+          "text": "Both fruits are visible in black as the gripper turns toward red. This added object is a block and belongs in orange. Ignoring it would leave the current table arrangement unsorted. The new block needs to join the existing block group. Approach red with the open fingers aligned to its sides. Do not stop because the original fruit transfers are complete. The fruit group is in place, but red remains outside its destination."
+        },
+        {
+          "start": 21.8,
+          "end": 23.3,
+          "text": "Green is now also on the table while red lies beneath the approaching gripper. Both visible blocks remain eligible under the unchanged sorting rule. Sweeping across green could displace an object that still needs transfer. Red needs an isolated grasp while green remains available for a later pickup. Lower around red and close without contacting green. Do not ignore the newly visible green block. Red is being approached, and two visible blocks remain outside the bowl."
+        },
+        {
+          "start": 23.3,
+          "end": 24.8,
+          "text": "Red lifts from the table and moves toward the orange bowl. Its block category gives it the same destination as the earlier blocks. Releasing before clearing the rim could drop it beside the container. Red needs to rest within the existing block group. Carry it over the opening and lower before releasing. Do not let this transfer disturb the nearby loose green block. Red is being placed, while green still awaits its own transfer."
+        },
+        {
+          "start": 24.8,
+          "end": 26.2,
+          "text": "The gripper withdraws from orange while green remains in front of the bowl. Green is the visible block still outside its assigned container. Leaving it there would make the sorting incomplete. The remaining loose block needs to join the orange-bowl group. Reorient the open gripper toward green's current position. Do not disturb the fruit already grouped in black. The red transfer has finished, but green is still unsorted."
+        },
+        {
+          "start": 26.2,
+          "end": 27.5,
+          "text": "The open fingers descend around green near the orange bowl's front edge. Its proximity to the container requires a narrow and centered approach. A wide or offset grasp could strike the rim. Green needs a secure grasp with clearance from the bowl. Align on its sides and close before lifting. Do not count a block beside the bowl as sorted inside. The remaining block is being grasped, but it has not reached its destination."
+        },
+        {
+          "start": 27.5,
+          "end": 29.0,
+          "text": "Green lifts into the orange bowl and lowers among the other blocks. The category rule places it with this existing group. Contact with the rim could deflect it back onto the table. Green needs to be supported within the container before release. Clear the rim, lower the block, and open the fingers. Do not release while it is balanced against the outer edge. This transfer is finishing, and the changing tabletop still needs another check."
+        },
+        {
+          "start": 29.0,
+          "end": 30.5,
+          "text": "The gripper rises as a larger green block is brought onto the table. The new object's size does not change its block category. Treating the previous transfer as final would leave this arrival unsorted. The larger block needs inclusion in the orange-bowl group. Allow the hand to clear and turn toward the new block. Do not close the fingers while the hand occupies the pickup area. The added block creates a remaining transfer despite the earlier placements."
+        },
+        {
+          "start": 30.5,
+          "end": 32.0,
+          "text": "The larger green block sits on the open tabletop as the arm approaches. It is the visible loose object still assigned to the orange bowl. An approach too narrow for its width could push it away. The block needs to be centered within a sufficiently open gripper. Open the fingers around its wider body and descend. Do not disturb either already sorted container. The final visible loose block is being approached, but pickup is incomplete."
+        },
+        {
+          "start": 32.0,
+          "end": 33.2,
+          "text": "The gripper closes on the larger green block and begins lifting. Its wide body requires clearance before turning toward the bowl. A low sideways movement could drag it along the tabletop. The block needs to remain secure and fully clear of the surface. Finish the grasp and lift vertically before carrying. Do not turn while the block is still touching the table. The pickup is underway, and the orange-bowl placement still remains."
+        },
+        {
+          "start": 33.2,
+          "end": 34.0,
+          "text": "The large green block is held above the table and carried toward orange. Several blocks already occupy the destination and reduce the available space. A low approach could collide with the rim or existing contents. The held block needs a supported landing area within the container. Keep it raised while positioning over the bowl opening. Do not release during the unsupported carry. The block has been lifted, but the crowded-bowl placement is still underway."
+        },
+        {
+          "start": 34.0,
+          "end": 34.7,
+          "text": "The held block reaches the orange bowl and lowers toward its crowded contents. The existing blocks constrain where the larger object can settle. Releasing against the outer rim could spill it onto the table. The new block needs support inside the container. Ease it inward and lower before opening the fingers. Do not push the existing blocks over the rim. The final placement is being made, but support must be established before withdrawal."
+        },
+        {
+          "start": 34.7,
+          "end": 35.4,
+          "text": "The fingers open and rise while the larger block remains supported in orange. The visible categories are now separated into their instructed containers. Contact during withdrawal could dislodge the crowded block group. The completed arrangement needs to remain stable after release. Withdraw upward and leave both bowls undisturbed. Do not make another transfer without a newly visible unsorted object. No loose object is visible on the table in the final view."
+        }
+      ]
+    },
+    "equalize": {
+      "provenance": "authored",
+      "segments": [
+        {
+          "start": 0,
+          "end": 4,
+          "text": "The orange and black bowls are empty, with several loose objects nearby. The instruction requires exactly two objects in each container. Filling one bowl alone would leave the other requirement unmet. Each bowl should end with its own pair of objects. Establish separate counts before selecting the first item. Do not treat every loose object as a required transfer. Both container counts remain at zero."
+        },
+        {
+          "start": 4,
+          "end": 8,
+          "text": "The arm remains raised and neither bowl's contents have changed. Each empty container still needs two objects of any available type. Losing track of separate counts could overfill one bowl. The first selection should begin one pair without conflating the containers. Choose an accessible loose item while preserving both counts. Do not transfer all nearby objects indiscriminately. Neither bowl has received its first item."
+        },
+        {
+          "start": 8,
+          "end": 11.5,
+          "text": "The gripper is still above the workspace, with the banana lying behind the bowls. The banana is an available first item for the orange bowl. An approach through neighboring blocks could disturb several objects. The banana should become accessible without changing the surrounding arrangement. Prepare an approach that clears the nearby blocks. Do not count a planned transfer as a placed item. Both bowls are still empty."
+        },
+        {
+          "start": 11.5,
+          "end": 14.5,
+          "text": "The arm begins descending toward the banana behind the bowls. Nearby blocks constrain the space around the fruit. A sweeping approach could move an unintended object into the path. The gripper should reach the banana alone. Approach from above with the fingers aligned around its body. Do not sweep the neighboring blocks along with the fruit. The first pick has not yet changed either bowl's count."
+        },
+        {
+          "start": 14.5,
+          "end": 17,
+          "text": "The fingers move around the banana on the table. The curved fruit needs stable support before being carried. Dragging it sideways could catch a neighboring block or shift the grasp. The banana should lift as the only held object. Close around an accessible section and raise it clear. Do not drag the fruit across the surrounding objects. Both bowls still await a completed placement."
+        },
+        {
+          "start": 17,
+          "end": 19,
+          "text": "The banana rises from the table and moves toward the orange bowl. This fruit is intended to establish that container's first item. Contact with the rim could loosen the grasp during the crossing. The banana should arrive centered over the bowl opening. Maintain the grip while carrying it clear of the rim. Do not release while it is still outside the bowl. The first placement is underway and the black bowl remains empty."
+        },
+        {
+          "start": 19,
+          "end": 22,
+          "text": "The banana is lowered into the orange bowl with the gripper still close. Its long shape needs stable support before release. Levering the fruit against the rim could shift the bowl. The banana should settle securely inside the container. Lower it gently until the bowl supports its body. Do not release it across the rim. The first placement still needs an independent support check."
+        },
+        {
+          "start": 22,
+          "end": 25,
+          "text": "The gripper stays low around the banana inside the orange bowl. The fruit's placement needs to settle before the next transfer. Moving away abruptly could pull the banana back out. The fruit should remain supported as contact is reduced. Keep the hand steady and control the release. Do not begin collecting another object during this placement. The banana placement is still being established."
+        },
+        {
+          "start": 25,
+          "end": 28,
+          "text": "The banana remains inside the orange bowl as the fingers stay nearby. A clean release is needed to retain the first item. Dragging contact during withdrawal could shift the fruit or container. The banana should stay in the bowl without gripper support. Separate the fingers from the fruit before retracting. Do not lift the banana out again. The black bowl remains empty and the orange placement is being checked."
+        },
+        {
+          "start": 28,
+          "end": 31,
+          "text": "The arm holds a low position over the orange bowl, with the banana resting inside. The withdrawal path still needs clearance around the fruit and rim. An unclean retreat could disturb this first placement. The banana should remain stable as the hand clears the bowl. Check the support and lift the fingers away carefully. Do not add another object while the placement is unsettled. The black bowl has not yet received any item."
+        },
+        {
+          "start": 31,
+          "end": 34,
+          "text": "The gripper begins to rise away from the banana in the orange bowl. A supported banana establishes one item in that container. Catching the fruit during withdrawal could undo this count. The orange bowl should retain its first item after the hand retreats. Retract above the rim while checking that the banana stays. Do not snag the fruit with a closing finger. One more item is still needed in orange and two in black."
+        },
+        {
+          "start": 34,
+          "end": 37,
+          "text": "The banana remains in the orange bowl while the arm reorients above the workspace. The nearby blue block can supply the one remaining item there. Disturbing the banana would make the container count uncertain. The second transfer should preserve the first placement. Turn toward the blue block with the gripper open. Do not treat the empty black bowl as already satisfied. The visible counts are one in orange and zero in black."
+        },
+        {
+          "start": 37,
+          "end": 40,
+          "text": "The gripper descends toward the blue block between the bowls. Adding this block would bring the orange bowl to two items. Contact with a container edge could deflect the approach. The blue block should become securely grasped without shifting either bowl. Align the fingers around the block and lower carefully. Do not push the block against a bowl rim. The orange bowl still has only its banana."
+        },
+        {
+          "start": 40,
+          "end": 43,
+          "text": "The fingers remain close to the blue block on the table. A centered grip is needed for lifting rather than sliding. An uneven closure could push the block toward a bowl. The blue block should be held firmly between the fingers. Close around its sides while maintaining the intended orange-bowl destination. Do not sweep the neighboring loose objects into the grasp. The second orange-bowl item has not yet been placed."
+        },
+        {
+          "start": 43,
+          "end": 45,
+          "text": "The blue block begins to lift between the fingers. It must clear the table before moving toward the banana's bowl. Traveling sideways too low could strike a nearby container edge. The block should reach the bowl without losing its grasp. Raise it first, then carry it toward the opening. Do not drop it between the two bowls. The orange bowl remains one completed placement short of its target."
+        },
+        {
+          "start": 45,
+          "end": 47,
+          "text": "The held blue block moves over the orange bowl beside the banana. The block needs an open landing area beside the first item. Striking the fruit could deflect the block out of the bowl. Both objects should fit together inside the container. Lower the block into a clear part of the opening. Do not drop it from above the rim. The second placement remains in progress."
+        },
+        {
+          "start": 47,
+          "end": 50,
+          "text": "The gripper is low in the orange bowl as the blue block is placed. Both objects must remain inside after release to establish the count of two. Withdrawing while still gripping could lift the block back out. The block should stay supported beside the banana. Open the fingers once the bowl supports the block. Do not catch the banana while releasing. The orange pair is being placed while the black bowl stays empty."
+        },
+        {
+          "start": 50,
+          "end": 53,
+          "text": "The banana and blue block are together in the orange bowl, with the gripper nearby. The desired count depends on both remaining after the hand withdraws. Further contact could dislodge one object or disturb the arrangement. The two items should remain independently supported inside orange. Withdraw carefully while checking that the blue block stays. Do not introduce a third item into this bowl. The orange pair is being verified and black still needs two items."
+        },
+        {
+          "start": 53,
+          "end": 55.5,
+          "text": "The arm retracts above the orange bowl and both placed items remain there. The orange container has reached its required count. Continuing to fill it would exceed the instruction's limit. The completed pair should remain unchanged while work shifts to black. Redirect toward an available item for the empty black bowl. Do not add a third object to orange. Orange visibly holds two items and black remains empty."
+        },
+        {
+          "start": 55.5,
+          "end": 58.5,
+          "text": "The gripper moves toward the wooden block behind the orange bowl. The block can become the first item in the empty black bowl. A broad approach could sweep the neighboring red block along. The wooden block should be selected independently for the black container. Approach its accessible sides with the fingers open. Do not disturb the pair already placed in orange. The black bowl still needs both of its items."
+        },
+        {
+          "start": 58.5,
+          "end": 61,
+          "text": "The fingers hover near the wooden block while the arm adjusts its approach. The target needs to be isolated from neighboring objects before lifting. An imprecise closure could displace another block or miss the target. The gripper should align cleanly around the wooden block. Refine the hand position while keeping the fingers clear. Do not redirect this item into the already-filled orange bowl. The first black-bowl transfer is still being prepared."
+        },
+        {
+          "start": 61,
+          "end": 64,
+          "text": "The gripper lowers around the wooden block behind the orange bowl. A stable grasp is needed before crossing to the other container. Lifting with an off-center hold could let the block slip. The wooden block should rise without disturbing neighboring items. Close around the block alone and raise it clear. Do not sweep the red block into the same transfer. The black bowl has not yet received its first item."
+        },
+        {
+          "start": 64,
+          "end": 66.5,
+          "text": "The wooden block is grasped and lifted from the table. Black remains empty while orange already holds its required pair. A low crossing could strike a container or loosen the grasp. The wooden block should arrive above the black bowl securely. Carry it above the edges while maintaining the grip. Do not place it into the orange bowl. The first black-bowl item is still in transit."
+        },
+        {
+          "start": 66.5,
+          "end": 69,
+          "text": "The block is carried over the black bowl and lowered into its opening. It should establish the first of that container's two items. Releasing near the rim could leave it outside the bowl. The wooden block should settle inside with room for another object. Lower it below the rim before opening the fingers. Do not disturb the completed orange-bowl pair. The black bowl's first placement is underway."
+        },
+        {
+          "start": 69,
+          "end": 72,
+          "text": "The wooden block is inside the black bowl as the gripper withdraws. That container needs exactly one additional item after this placement. Catching the block during retreat could undo the first transfer. The wooden block should remain supported as the hand clears. Lift the open fingers above the bowl and check the placement. Do not pick the block back up during withdrawal. Black holds one visible item while orange retains two."
+        },
+        {
+          "start": 72,
+          "end": 74.5,
+          "text": "The gripper reorients toward the apple to the left of the black bowl. One apple would complete the pair beside the wooden block. An off-center approach could roll the fruit out of reach. The apple should be isolated for the final required transfer. Approach the fruit from above with the fingers aligned. Do not select additional objects for the orange bowl. The black bowl remains one item short of its target."
+        },
+        {
+          "start": 74.5,
+          "end": 77,
+          "text": "The fingers descend around the apple beside the black bowl. The rounded fruit needs stabilizing contact before it can lift. Uneven pressure could make the apple roll along the table. The fruit should become securely held without moving the container. Close around the apple and lift clear of the tabletop. Do not knock the bowl or its wooden block. The final required item has not yet reached the bowl."
+        },
+        {
+          "start": 77,
+          "end": 79,
+          "text": "The apple rises in the gripper and moves toward the black bowl. It should become the second item alongside the wooden block. A rough placement could roll the apple out or displace the block. The black bowl should retain both objects after release. Lower the apple carefully into the available space. Do not add any further object after establishing this pair. The final placement is still underway."
+        },
+        {
+          "start": 79,
+          "end": 81.233333,
+          "text": "The apple rests in the black bowl as the arm retracts. The visible pairs satisfy the separate two-item requirements. Further transfers could overfill a bowl or disturb a placed object. Both pairs should remain stable after the gripper clears. Check the apple and wooden block, then the banana and blue block. Do not collect the remaining loose table objects. Each bowl visibly contains two items in the final arrangement."
+        }
+      ]
+    },
+    "exclude-green": {
+      "provenance": "authored",
+      "segments": [
+        {
+          "start": 0,
+          "end": 5,
+          "text": "The orange, banana, and blue block sit near two green objects. Only the non-green objects belong in the crate. Collecting the pear or green block would violate the instruction. The intended result preserves both green objects on the table. Begin by approaching the orange with the gripper open. Keep the fingers away from the excluded green pair. All three eligible objects still need to be transferred."
+        },
+        {
+          "start": 5,
+          "end": 7.5,
+          "text": "The orange sits between the green pear and the crate. This narrow space requires a pickup that isolates the orange. A broad approach could push the pear along with the fruit. The next goal is clear alignment over the orange alone. Position the open fingers above the center of the fruit. Avoid sweeping across the pear or the nearby green block. The orange remains outside, so its transfer has not begun."
+        },
+        {
+          "start": 7.5,
+          "end": 10,
+          "text": "The wrist is descending toward the orange with open fingers. The grasp must center on the fruit before the fingers close. An off-center closure could roll the orange toward the pear. The intended effect is a stable grasp without moving neighboring objects. Lower the fingers around the orange at a controlled height. Do not push sideways into the excluded green pear. A secure pickup is not yet established at this point."
+        },
+        {
+          "start": 10,
+          "end": 12.5,
+          "text": "The gripper is near the orange, which still rests on the table. Contact alone does not show that the fruit has been secured. Assuming success could lead to an empty transfer toward the crate. The immediate goal is a grasp that actually carries the orange. Withdraw and realign if the fruit does not follow the fingers. Avoid brushing the green pear during the withdrawal. The orange still needs to leave the tabletop."
+        },
+        {
+          "start": 12.5,
+          "end": 15,
+          "text": "The wrist has risen while the orange remains beside the pear. The previous approach has not lifted the fruit. Repeating the same alignment could miss the orange again. The next goal is a better-centered approach to the fruit. Reorient above the orange before beginning another controlled descent. Keep the empty fingers clear of the excluded pear. The first eligible transfer is still pending."
+        },
+        {
+          "start": 15,
+          "end": 17.5,
+          "text": "The gripper is returning toward the orange for another pickup. The fingers need to straddle the fruit at a useful height. Closing beside the fruit could push it toward neighboring objects. The desired result is a stable hold around the orange. Lower into alignment and close the fingers around the fruit. Avoid pressing the orange against the green pear. The orange has not yet been placed in the crate."
+        },
+        {
+          "start": 17.5,
+          "end": 20,
+          "text": "The fingers are positioned around the orange near the tabletop. The fruit must stay secured while clearing the nearby pear. A weak hold could let the orange slip during the transfer. The intended effect is an orange held clear of surrounding objects. Lift the fruit and move toward the crate with closed fingers. Do not release before the orange reaches the opening. The transfer remains incomplete until the fruit is supported inside."
+        },
+        {
+          "start": 20,
+          "end": 22.5,
+          "text": "The orange has reached the crate opening beneath the lowered gripper. The fruit needs support inside the container before release. Opening above the rim could leave the orange outside the crate. The next goal is an orange resting securely within the crate. Lower the fruit, open the fingers, and begin a clear withdrawal. Avoid clipping the rim or disturbing objects on the table. The banana and blue block still require their own transfers."
+        },
+        {
+          "start": 22.5,
+          "end": 25,
+          "text": "The orange is visible in the crate as the gripper moves away. The banana and blue block are the remaining eligible objects. An unnecessarily low return could disturb the completed orange placement. The intended effect is a clear approach to the next fruit. Return toward the banana with the fingers open. Keep the green pear and green block outside the pickup path. Two eligible objects still remain on the table."
+        },
+        {
+          "start": 25,
+          "end": 27.5,
+          "text": "The gripper is returning toward the banana in front of the pear. The curved fruit needs a balanced grasp that clears its neighbor. An off-center lift could swing the banana into the excluded pear. The desired result is an isolated, stable hold on the banana. Align over a supported part of the fruit and descend carefully. Avoid contact with the pear and nearby green block. The banana is still outside the crate."
+        },
+        {
+          "start": 27.5,
+          "end": 30,
+          "text": "The fingers are lowered around the banana close to the pear. The fruit must clear the table before moving sideways. Dragging it could sweep the excluded pear into the motion. The immediate goal is a banana held above its neighbors. Secure the fruit, lift it clear, and start toward the crate. Keep the green objects undisturbed throughout the pickup. The banana placement and blue block transfer both remain pending."
+        },
+        {
+          "start": 30,
+          "end": 32.5,
+          "text": "The banana is held above the crate, extending across the gripper. Its length makes alignment with the opening important. A release across the rim could leave the fruit unsupported. The intended effect is a stable placement beside the orange. Lower the banana inside and release only after it reaches support. Avoid displacing the orange already in the container. The blue block still remains outside the crate."
+        },
+        {
+          "start": 32.5,
+          "end": 36,
+          "text": "The banana and orange are visible inside the crate after withdrawal. The blue block is the only eligible object still outside. Picking a green object next would violate the exclusion. The next goal is an isolated pickup of the blue block. Reorient the open gripper toward the block beside the crate. Leave the green pear and green block in place. One eligible transfer remains before the collection is complete."
+        },
+        {
+          "start": 36,
+          "end": 40.5,
+          "text": "The open gripper pauses above the table while the blue block remains outside. The two completed fruit transfers do not satisfy the entire instruction. Stopping here would leave an eligible object uncollected. The intended effect is readiness for the remaining block pickup. Prepare the fingers to approach the blue block from above. Do not substitute either green object for the pending target. The task remains incomplete during this pause."
+        },
+        {
+          "start": 40.5,
+          "end": 45.5,
+          "text": "The scene remains unchanged, with the blue block beside the filled crate. The next approach must preserve the two fruit placements already achieved. A wide or low reach could strike the crate and disturb them. The desired result is a clear route to the exposed block. Keep the fingers open while aligning the approach. Avoid moving the crate or touching the green pear. The blue block has not yet left the table."
+        },
+        {
+          "start": 45.5,
+          "end": 48.5,
+          "text": "The wrist is reorienting toward the blue block near the crate. The block offers flat sides that require a different alignment from fruit. A grasp on one corner could rotate the block or slip. The next goal is an even hold across the block. Turn the gripper and position the fingers above its opposing sides. Keep both green objects clear of the approach. The final eligible object is still outside the container."
+        },
+        {
+          "start": 48.5,
+          "end": 51.5,
+          "text": "The gripper is approaching the blue block beside the crate wall. The fingers need clearance between the target and the container. A misaligned descent could push the block against the crate. The intended effect is an isolated grasp without moving the container. Lower the fingers around the exposed sides of the block. Avoid contact with the crate rim and excluded green objects. The block still requires a secure pickup and transfer."
+        },
+        {
+          "start": 51.5,
+          "end": 53.5,
+          "text": "The fingers have reached the blue block at pickup height. A centered closure is needed before the block can be lifted. Closing beside an edge could slide it along the tabletop. The immediate goal is a secure hold that carries the block. Close the fingers and check that the block follows the lift. Do not push it toward either green object. The final transfer has not yet reached the crate."
+        },
+        {
+          "start": 53.5,
+          "end": 55.5,
+          "text": "The blue block is being transferred toward the crate. The grasp must remain closed until the block clears the rim. A premature release could leave the last eligible object outside. The desired effect is a supported placement within the container. Carry the block over the opening and lower it into available space. Avoid moving the green pear or green block. The final placement remains unconfirmed until support and release are checked."
+        },
+        {
+          "start": 55.5,
+          "end": 57.1,
+          "text": "The final transfer has reached the crate beneath the gripper. The blue block must remain supported as the fingers disengage. Withdrawing with a closed grasp could pull the block back out. The intended result keeps all three eligible objects inside. Open the fingers, withdraw cleanly, and check the container contents. Leave both green objects on the table. All three eligible objects have reached the crate, with final support still to be checked."
+        }
+      ]
+    },
+    "exclude-can-block": {
+      "provenance": "authored",
+      "segments": [
+        {
+          "start": 0,
+          "end": 2.5,
+          "text": "The banana lies beside the can, with fruit and blocks around the bowl. The instruction excludes the can and wooden block from collection. A crowded pickup could disturb the can beside the first target. The initial goal is a banana grasp that leaves the can stationary. Approach the fruit from above with the fingers open. Do not include the can or wooden block in any transfer. All four eligible objects still need to enter the bowl."
+        },
+        {
+          "start": 2.5,
+          "end": 5,
+          "text": "The gripper is descending toward the banana beside the can. The narrow gap requires the fingers to isolate the fruit. A sideways approach could strike or tip the excluded can. The intended effect is clear alignment around the banana alone. Center the gripper above the fruit and lower carefully. Keep the fingers from closing around the adjacent can. The first pickup is still being established."
+        },
+        {
+          "start": 5,
+          "end": 7.5,
+          "text": "The fingers are low around the banana near the tabletop. The hold needs to separate the fruit from the neighboring can. An uncertain grasp could drag both objects during the lift. The next goal is a banana securely held by itself. Close around the fruit and check its movement before lifting further. Avoid pushing or gathering the can with the banana. The fruit has not yet completed its transfer."
+        },
+        {
+          "start": 7.5,
+          "end": 10,
+          "text": "The gripper is at the banana pickup position beside the can. The fruit needs vertical clearance before moving toward the bowl. A low lateral motion could hit the can with the banana. The intended effect is a clear, supported transfer above the obstacles. Lift the fruit securely and carry it over the bowl opening. Do not strike the excluded can during the approach. The banana still needs a supported placement in the bowl."
+        },
+        {
+          "start": 10,
+          "end": 12.5,
+          "text": "The banana has reached the bowl beneath the gripper. The fruit must rest within the opening before the fingers release. Opening too high could leave it lying across the rim. The desired result is a stable banana placement inside the bowl. Lower the fruit to support, open the grasp, and withdraw. Avoid pulling the banana back out with the retreating fingers. The orange and both eligible blocks remain outside."
+        },
+        {
+          "start": 12.5,
+          "end": 15,
+          "text": "The banana is visible inside the bowl as the open gripper withdraws. The next fruit is beside the excluded wooden block. An imprecise approach could move the block along with the orange. The next goal is an isolated approach to the orange. Reorient the wrist toward the fruit on the right. Leave the wooden block and completed banana placement undisturbed. Three eligible objects still require transfer."
+        },
+        {
+          "start": 15,
+          "end": 17.5,
+          "text": "The orange remains beside the wooden block beneath the approaching wrist. The neighboring block is excluded despite sharing the pickup area. Closing across both objects could violate the instruction. The intended effect is a grasp that contains only the fruit. Align the open fingers over the orange and preserve clearance. Do not treat the orange and wooden block as a single target. The orange has not yet been lifted."
+        },
+        {
+          "start": 17.5,
+          "end": 20,
+          "text": "The gripper has reached the orange and is aligning around its sides. The fruit needs a secure hold before leaving the tabletop. A weak closure could knock it against the wooden block. The desired result is an orange lifted independently of its neighbor. Close around the fruit, raise it clear, and turn toward the bowl. Keep the excluded wooden block on the table. The orange placement is still pending."
+        },
+        {
+          "start": 20,
+          "end": 22.5,
+          "text": "The orange is held clear of the table while approaching the bowl. The banana already occupies part of the destination. An uncontrolled drop could dislodge the earlier placement. The intended effect is a supported orange beside the banana. Keep the grasp closed over the rim and lower the fruit. Avoid pressing the banana against or over the bowl edge. The orange still needs to be released onto support."
+        },
+        {
+          "start": 22.5,
+          "end": 25,
+          "text": "The orange is visible beside the banana inside the bowl. The green and blue blocks remain eligible on the tabletop. A low return could disturb the fruit already placed. The next goal is a clear approach to the green block. Withdraw from the bowl and move toward the block with open fingers. Leave the can and wooden block outside. The collection remains incomplete with two eligible blocks still pending."
+        },
+        {
+          "start": 25,
+          "end": 27.5,
+          "text": "The gripper is returning toward the green block in front of the bowl. This block is eligible because the exclusion names different objects. Confusing the targets could leave it behind or move the wooden block. The intended effect is an isolated hold on the green block. Approach its opposing sides with the fingers open. Keep clear of the can and the fruit inside the bowl. The green block has not yet reached the destination."
+        },
+        {
+          "start": 27.5,
+          "end": 30,
+          "text": "The fingers are descending around the green block beside the bowl. A centered grasp will separate it cleanly from the tabletop. A sideways push could move it into the can or bowl. The next goal is a stable lift clear of neighboring objects. Secure the block, raise it, and carry it toward the opening. Avoid striking the can or forcing the bowl sideways. The green block transfer is still underway."
+        },
+        {
+          "start": 30,
+          "end": 32.5,
+          "text": "The green block has reached the bowl beside the fruit. The new placement needs support without displacing the existing contents. Forcing it downward could push fruit against the rim. The intended effect is a stable green block inside the bowl. Settle the block, open the fingers, and lift the gripper away. Avoid pulling the fruit or block back out during withdrawal. The blue block still waits directly in front of the bowl."
+        },
+        {
+          "start": 32.5,
+          "end": 35.5,
+          "text": "The green block is visible with the fruit as the wrist lifts clear. The blue block is now the last included object outside. Revisiting another object could disturb progress or violate the exclusion. The next goal is an approach directed only at the blue block. Reorient the open gripper toward its exposed sides. Leave the can, wooden block, and bowl contents undisturbed. One eligible transfer remains unfinished."
+        },
+        {
+          "start": 35.5,
+          "end": 39,
+          "text": "The open gripper is descending toward the front of the filled bowl. The blue block is close to the rim and existing contents. An approach too far back could grasp fruit instead of the block. The desired effect is clear alignment on the remaining target. Lower the fingers toward the exposed sides of the blue block. Avoid pressing against the rim or disturbing the placed fruit. The blue block remains outside the bowl."
+        },
+        {
+          "start": 39,
+          "end": 43,
+          "text": "The gripper is near the bowl while the blue block remains below it. This approach has not yet established a pickup. Closing over the existing contents could undo earlier placements. The immediate goal is alignment with the block itself. Adjust the fingers toward the blue block at tabletop height. Keep the fruit, can, and wooden block undisturbed. The last eligible object is still uncollected."
+        },
+        {
+          "start": 43,
+          "end": 46,
+          "text": "The blue block remains outside while the fingers pause near the bowl. The pending target still needs a grasp below the current approach. A poorly directed closure could catch the bowl or its contents. The next goal is a hold isolated from the container. Bring the fingers down to the blue block itself. Do not move the excluded can or wooden block. The block has not yet left the tabletop."
+        },
+        {
+          "start": 46,
+          "end": 48,
+          "text": "The fingers have descended to the blue block directly in front of the bowl. The close rim makes a clean lift preferable to a push. Pushing the target could shift the filled container. The intended effect is a blue block held clear of the tabletop. Close the grasp and confirm that the block rises with it. Avoid pressing against the bowl or touching either excluded object. The final placement has not yet been completed."
+        },
+        {
+          "start": 48,
+          "end": 50,
+          "text": "The blue block is held above the bowl after leaving the tabletop. The fruit and green block limit the available placement space. An awkward drop could knock an existing item outward. The desired result is a stable block placement among the contents. Orient the held block and lower it into the available space. Avoid forcing the fruit over the bowl rim. The final transfer still needs a supported release."
+        },
+        {
+          "start": 50,
+          "end": 52.5,
+          "text": "The blue block is entering the bowl as the wrist tilts. Contact with the contents does not yet establish a finished release. Pulling away with closed fingers could lift the block back out. The intended effect is independent support for the blue block. Settle it into position and open the fingers carefully. Avoid dragging the banana, orange, or green block across the rim. The final placement still needs verification."
+        },
+        {
+          "start": 52.5,
+          "end": 55.5,
+          "text": "The gripper remains low inside the bowl around the final placement. The block must stay supported while the fingers disengage. An early withdrawal could lift or tip it again. The desired effect is a stable arrangement after release. Open the grasp and begin clearing the bowl slowly. Leave the surrounding fruit stable and both excluded objects outside. Completion remains unconfirmed until the gripper clears without disturbing the contents."
+        },
+        {
+          "start": 55.5,
+          "end": 56.733333,
+          "text": "The placed objects are gathered in the bowl beneath the gripper. The final withdrawal must preserve their supported arrangement. Catching an item on the fingers could pull it back outside. The intended result leaves all four eligible objects inside the bowl. Clear the rim and check the placement of each collected object. Keep the can and wooden block on the table. All four eligible objects are in the bowl, with stability after withdrawal still to be checked."
+        }
+      ]
+    }
+  }
+}

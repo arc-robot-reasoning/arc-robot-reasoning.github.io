@@ -1,0 +1,8 @@
+{
+  "name": "arc-project-website",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Anonymous academic project website for ARC.",
+  "scripts": { "start": "node tools/serve.mjs", "check": "node --check app.js && node --check players.js && node --check tools/serve.mjs" }
+}

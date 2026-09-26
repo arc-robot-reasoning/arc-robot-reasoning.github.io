@@ -1,0 +1,110 @@
+{
+  "figures": [
+    {
+      "id": "teaser",
+      "pdf": "teaser.pdf",
+      "png": "teaser.png",
+      "webp": "teaser.webp",
+      "width": 2000,
+      "height": 1242,
+      "png_bytes": 1073000,
+      "webp_bytes": 379464
+    },
+    {
+      "id": "attention",
+      "pdf": "attention.pdf",
+      "png": "attention.png",
+      "webp": "attention.webp",
+      "width": 2000,
+      "height": 1269,
+      "png_bytes": 543424,
+      "webp_bytes": 305488
+    },
+    {
+      "id": "kf3-inf",
+      "pdf": "kf3-inf.pdf",
+      "png": "kf3-inf.png",
+      "webp": "kf3-inf.webp",
+      "width": 2000,
+      "height": 1006,
+      "png_bytes": 129601,
+      "webp_bytes": 92664
+    },
+    {
+      "id": "ablations",
+      "pdf": "ablations.pdf",
+      "png": "ablations.png",
+      "webp": "ablations.webp",
+      "width": 2000,
+      "height": 692,
+      "png_bytes": 206733,
+      "webp_bytes": 125362
+    },
+    {
+      "id": "arc_instruction_specificity",
+      "pdf": "arc_instruction_specificity.pdf",
+      "png": "arc_instruction_specificity.png",
+      "webp": "arc_instruction_specificity.webp",
+      "width": 2000,
+      "height": 1045,
+      "png_bytes": 101625,
+      "webp_bytes": 68692
+    },
+    {
+      "id": "arc-realtime-inference",
+      "pdf": "arc-realtime-inference.pdf",
+      "png": "arc-realtime-inference.png",
+      "webp": "arc-realtime-inference.webp",
+      "width": 2000,
+      "height": 969,
+      "png_bytes": 143748,
+      "webp_bytes": 99140
+    },
+    {
+      "id": "arc-pi05-finetuning",
+      "pdf": "arc-pi05-finetuning.pdf",
+      "png": "arc-pi05-finetuning.png",
+      "webp": "arc-pi05-finetuning.webp",
+      "width": 1976,
+      "height": 2000,
+      "png_bytes": 256029,
+      "webp_bytes": 171286
+    },
+    {
+      "id": "arc-cosmos-finetuning",
+      "pdf": "arc-cosmos-finetuning.pdf",
+      "png": "arc-cosmos-finetuning.png",
+      "webp": "arc-cosmos-finetuning.webp",
+      "width": 2000,
+      "height": 1976,
+      "png_bytes": 272511,
+      "webp_bytes": 206922
+    },
+    {
+      "id": "kf2-arc",
+      "pdf": "kf2-arc.pdf",
+      "png": "kf2-arc.png",
+      "webp": "kf2-arc.webp",
+      "width": 2000,
+      "height": 1234,
+      "png_bytes": 129683,
+      "webp_bytes": 41050
+    },
+    {
+      "id": "relabel2",
+      "pdf": "relabel2.pdf",
+      "png": "relabel2.png",
+      "webp": "relabel2.webp",
+      "width": 2000,
+      "height": 1334,
+      "png_bytes": 789484,
+      "webp_bytes": 483962
+    }
+  ],
+  "logo": {
+    "id": "arc-logo",
+    "png": "arc.png",
+    "width": 1298,
+    "height": 1212
+  }
+}

@@ -1,0 +1,229 @@
+{
+  "version": 1,
+  "sourceSpeed": 3,
+  "groups": [
+    {
+      "id": "discovery",
+      "title": "Reveal the hidden target",
+      "instruction": "Move the mustard bottle aside and put whatever was behind it into the bowl",
+      "category": "Discovery",
+      "pairing": "three-policy",
+      "sourceSpeed": 3,
+      "videos": [
+        {
+          "role": "arc",
+          "policy": "π₀.₅ + ARC",
+          "sourceSpeed": 3,
+          "duration": 10.7,
+          "video": "assets/videos/discovery-arc.mp4",
+          "poster": "assets/posters/discovery-arc.jpg",
+          "posterTime": 0.2
+        },
+        {
+          "role": "cosmos",
+          "policy": "Cosmos3-Nano-Policy",
+          "sourceSpeed": 3,
+          "duration": 24.733333,
+          "video": "assets/videos/discovery-cosmos.mp4",
+          "poster": "assets/posters/discovery-cosmos.jpg",
+          "posterTime": 0.2
+        },
+        {
+          "role": "pi",
+          "policy": "π₀.₅",
+          "sourceSpeed": 3,
+          "duration": 9.8,
+          "video": "assets/videos/discovery-pi.mp4",
+          "poster": "assets/posters/discovery-pi.jpg",
+          "posterTime": 0.2
+        }
+      ]
+    },
+    {
+      "id": "swap",
+      "title": "Reverse the arrangement",
+      "instruction": "Reverse the arrangement, whatever is on the plate goes in the bowl, and whatever is in the bowl goes on the plate",
+      "category": "Long horizon",
+      "pairing": "three-policy",
+      "sourceSpeed": 3,
+      "videos": [
+        {
+          "role": "arc",
+          "policy": "π₀.₅ + ARC",
+          "sourceSpeed": 3,
+          "duration": 81.166667,
+          "video": "assets/videos/swap-arc.mp4",
+          "poster": "assets/posters/swap-arc.jpg",
+          "posterTime": 0.2
+        },
+        {
+          "role": "cosmos",
+          "policy": "Cosmos3-Nano-Policy",
+          "sourceSpeed": 3,
+          "duration": 14.733333,
+          "video": "assets/videos/swap-cosmos.mp4",
+          "poster": "assets/posters/swap-cosmos.jpg",
+          "posterTime": 1
+        },
+        {
+          "role": "pi",
+          "policy": "π₀.₅",
+          "sourceSpeed": 3,
+          "duration": 18.8,
+          "video": "assets/videos/swap-pi.mp4",
+          "poster": "assets/posters/swap-pi.jpg",
+          "posterTime": 1
+        }
+      ]
+    },
+    {
+      "id": "dynamic-smallest",
+      "title": "Select the smallest block",
+      "instruction": "Put the smallest block in the bin",
+      "category": "Dynamic",
+      "pairing": "arc-only",
+      "sourceSpeed": 3,
+      "videos": [
+        {
+          "role": "arc",
+          "policy": "π₀.₅ + ARC",
+          "sourceSpeed": 3,
+          "duration": 12.0,
+          "video": "assets/videos/dynamic-smallest-arc.mp4",
+          "poster": "assets/posters/dynamic-smallest-arc.jpg",
+          "posterTime": 0.2
+        }
+      ]
+    },
+    {
+      "id": "dynamic-sort",
+      "title": "Sort a changing scene",
+      "instruction": "Sort the table, the blocks go in the orange bowl and fruits go in the black bowl",
+      "category": "Dynamic",
+      "pairing": "arc-only",
+      "sourceSpeed": 3,
+      "videos": [
+        {
+          "role": "arc",
+          "policy": "π₀.₅ + ARC",
+          "sourceSpeed": 3,
+          "duration": 35.4,
+          "video": "assets/videos/dynamic-sort-arc.mp4",
+          "poster": "assets/posters/dynamic-sort-arc.jpg",
+          "posterTime": 0.2
+        }
+      ]
+    },
+    {
+      "id": "equalize",
+      "title": "Place two items per container",
+      "instruction": "Every container on the table should hold exactly two things",
+      "category": "Long horizon",
+      "pairing": "three-policy",
+      "sourceSpeed": 3,
+      "videos": [
+        {
+          "role": "arc",
+          "policy": "π₀.₅ + ARC",
+          "sourceSpeed": 3,
+          "duration": 81.233333,
+          "video": "assets/videos/equalize-arc.mp4",
+          "poster": "assets/posters/equalize-arc.jpg",
+          "posterTime": 0.2
+        },
+        {
+          "role": "cosmos",
+          "policy": "Cosmos3-Nano-Policy",
+          "sourceSpeed": 3,
+          "duration": 30.733333,
+          "video": "assets/videos/equalize-cosmos.mp4",
+          "poster": "assets/posters/equalize-cosmos.jpg",
+          "posterTime": 0.2
+        },
+        {
+          "role": "pi",
+          "policy": "π₀.₅",
+          "sourceSpeed": 3,
+          "duration": 12.233333,
+          "video": "assets/videos/equalize-pi.mp4",
+          "poster": "assets/posters/equalize-pi.jpg",
+          "posterTime": 0.5
+        }
+      ]
+    },
+    {
+      "id": "exclude-green",
+      "title": "Exclude green objects",
+      "instruction": "Put every item on the table into the crate except the green colored objects",
+      "category": "Negation",
+      "pairing": "three-policy",
+      "sourceSpeed": 3,
+      "videos": [
+        {
+          "role": "arc",
+          "policy": "π₀.₅ + ARC",
+          "sourceSpeed": 3,
+          "duration": 57.1,
+          "video": "assets/videos/exclude-green-arc.mp4",
+          "poster": "assets/posters/exclude-green-arc.jpg",
+          "posterTime": 0.2
+        },
+        {
+          "role": "cosmos",
+          "policy": "Cosmos3-Nano-Policy",
+          "sourceSpeed": 3,
+          "duration": 9.133333,
+          "video": "assets/videos/exclude-green-cosmos.mp4",
+          "poster": "assets/posters/exclude-green-cosmos.jpg",
+          "posterTime": 0.2
+        },
+        {
+          "role": "pi",
+          "policy": "π₀.₅",
+          "sourceSpeed": 3,
+          "duration": 24.0,
+          "video": "assets/videos/exclude-green-pi.mp4",
+          "poster": "assets/posters/exclude-green-pi.jpg",
+          "posterTime": 0.2
+        }
+      ]
+    },
+    {
+      "id": "exclude-can-block",
+      "title": "Exclude the can and wood block",
+      "instruction": "Put every item on the table into the bowl except the can and the wood block",
+      "category": "Negation",
+      "pairing": "three-policy",
+      "sourceSpeed": 3,
+      "videos": [
+        {
+          "role": "arc",
+          "policy": "π₀.₅ + ARC",
+          "sourceSpeed": 3,
+          "duration": 56.733333,
+          "video": "assets/videos/exclude-can-block-arc.mp4",
+          "poster": "assets/posters/exclude-can-block-arc.jpg",
+          "posterTime": 0.2
+        },
+        {
+          "role": "cosmos",
+          "policy": "Cosmos3-Nano-Policy",
+          "sourceSpeed": 3,
+          "duration": 10.033008,
+          "video": "assets/videos/exclude-can-block-cosmos.mp4",
+          "poster": "assets/posters/exclude-can-block-cosmos.jpg",
+          "posterTime": 0.2
+        },
+        {
+          "role": "pi",
+          "policy": "π₀.₅",
+          "sourceSpeed": 3,
+          "duration": 22.966667,
+          "video": "assets/videos/exclude-can-block-pi.mp4",
+          "poster": "assets/posters/exclude-can-block-pi.jpg",
+          "posterTime": 0.2
+        }
+      ]
+    }
+  ]
+}
